@@ -1,0 +1,203 @@
+{
+  "trade": "millwork",
+  "room_number": "119",
+  "room_name": "STAFF BREAK",
+  "drawing_refs": [
+    "9/A8.02"
+  ],
+  "scopeItems": [
+    {
+      "category": "Cabinetry",
+      "description": "Wall cabinets",
+      "quantity": 7.5,
+      "unit": "lf",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "Wall cabinets",
+        "PL-1",
+        "7.5 L/F"
+      ]
+    },
+    {
+      "category": "Cabinetry",
+      "description": "Base cabinets",
+      "quantity": 3,
+      "unit": "lf",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "Base cabinets",
+        "3 L/F"
+      ]
+    },
+    {
+      "category": "Cabinetry",
+      "description": "Base cabinets (Drawer boxes)",
+      "quantity": 2,
+      "unit": "lf",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "Base cabinets (Drawer boxes)",
+        "2 L/F"
+      ]
+    },
+    {
+      "category": "Cabinetry",
+      "description": "Sink cabinet",
+      "quantity": 2.5,
+      "unit": "lf",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "Sink cabinet",
+        "2.5 L/F"
+      ]
+    },
+    {
+      "category": "Drawers",
+      "description": "Particleboard box with melamine",
+      "quantity": 5,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "Particleboard box",
+        "melamine"
+      ]
+    },
+    {
+      "category": "Paneling",
+      "description": "Slopped soffit panel",
+      "quantity": 9,
+      "unit": "lf",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "Slopped soffit panel",
+        "9 L/F"
+      ]
+    },
+    {
+      "category": "Hardware",
+      "description": "Timberline cam locks",
+      "quantity": 9,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "Timberline cam locks"
+      ]
+    },
+    {
+      "category": "Countertops",
+      "description": "Solid surface top with 4\"h loose backsplash",
+      "quantity": 7.5,
+      "unit": "lf",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "Solid surface top",
+        "SS-1",
+        "7.5 L/F"
+      ]
+    },
+    {
+      "category": "Misc",
+      "description": "Shop install solid surface integral sink",
+      "quantity": 1,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "integral sink",
+        "SB-3"
+      ]
+    }
+  ],
+  "specSheet": [
+    {
+      "key": "Finish Code",
+      "value": "SS-1",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "SS-1"
+      ]
+    },
+    {
+      "key": "Finish Code",
+      "value": "SB-3",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "SB-3"
+      ]
+    },
+    {
+      "key": "Finish Code",
+      "value": "PL-1",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "PL-1"
+      ]
+    }
+  ],
+  "specifications": [
+    {
+      "finish_code": "SS-1",
+      "finish_name": "Pearl Mirage",
+      "category": "Solid Surface",
+      "manufacturer": "Wilsonart",
+      "description": "Solid surface countertop material",
+      "finish": "Pearl Mirage 9199MG"
+    },
+    {
+      "finish_code": "SB-3",
+      "finish_name": "Calm White",
+      "category": "Sink",
+      "manufacturer": "Wilsonart",
+      "description": "Integral solid surface sink",
+      "finish": "AK1413 Calm White"
+    },
+    {
+      "finish_code": "PL-1",
+      "finish_name": "Studio Teak",
+      "category": "Plastic Laminate",
+      "manufacturer": "Wilsonart",
+      "description": "High-pressure decorative laminate",
+      "finish": "Studio Teak 7960K-18"
+    }
+  ],
+  "pageRefs": [
+    17,
+    22
+  ],
+  "image": "raw/custom/images/room_119_staff_break.png"
+}
