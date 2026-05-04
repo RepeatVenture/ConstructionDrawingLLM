@@ -1,0 +1,3 @@
+# Large files - do not commit
+*.pdf
+data/raw/custom/images/
