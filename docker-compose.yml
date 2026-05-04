@@ -1,0 +1,48 @@
+# ==========================================================================
+#  BlueprintBid Local LLM – Docker Compose
+#
+#  Start:  docker compose up --build
+#  Stop:   docker compose down
+#
+#  Requires: NVIDIA Container Toolkit
+#    https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html
+# ==========================================================================
+
+services:
+  llm-server:
+    build: .
+    container_name: blueprintbid-llm
+    ports:
+      - "${PORT:-8000}:8000"
+    volumes:
+      # Persist model weights across restarts
+      - model_cache:/app/model_cache
+    environment:
+      - MODEL_BACKEND=${MODEL_BACKEND:-qwen2-vl}
+      - QUANTIZATION=${QUANTIZATION:-int4}
+      - MAX_IMAGE_DIM=${MAX_IMAGE_DIM:-2048}
+      - ENABLE_OCR=${ENABLE_OCR:-true}
+      - MAX_CONCURRENT_REQUESTS=${MAX_CONCURRENT_REQUESTS:-3}
+      - REQUIRE_AUTH=${REQUIRE_AUTH:-false}
+      - BLUEPRINTBID_API_KEY=${BLUEPRINTBID_API_KEY:-}
+      - LOG_LEVEL=${LOG_LEVEL:-INFO}
+      - HF_HOME=/app/model_cache
+      - TRANSFORMERS_CACHE=/app/model_cache
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "python3", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 120s  # model loading takes time
+
+volumes:
+  model_cache:
+    driver: local

@@ -1,0 +1,260 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Description: >
+  BlueprintBid Construction Drawing LLM – Single GPU EC2 instance
+  running the Qwen2.5-VL model behind an Application Load Balancer
+  with HTTPS termination.
+
+# ======================================================================
+#  Deploy:
+#    aws cloudformation deploy \
+#      --template-file cloudformation.yml \
+#      --stack-name blueprintbid-llm \
+#      --parameter-overrides \
+#          KeyPairName=my-key \
+#          ApiKey=$(openssl rand -hex 24) \
+#          CertificateArn=arn:aws:acm:us-east-1:123456789:certificate/xxx \
+#      --capabilities CAPABILITY_IAM
+# ======================================================================
+
+Parameters:
+  InstanceType:
+    Type: String
+    Default: g5.xlarge
+    AllowedValues:
+      - g5.xlarge       # A10G 24GB – best price/perf ($1.01/hr)
+      - g5.2xlarge      # A10G 24GB + more CPU/RAM
+      - g4dn.xlarge     # T4 16GB – budget ($0.53/hr)
+      - g4dn.2xlarge    # T4 16GB + more CPU/RAM
+      - p3.2xlarge      # V100 16GB
+    Description: GPU instance type (g5.xlarge recommended)
+
+  KeyPairName:
+    Type: AWS::EC2::KeyPair::KeyName
+    Description: EC2 key pair for SSH access
+
+  ApiKey:
+    Type: String
+    NoEcho: true
+    MinLength: 16
+    Description: Bearer token for API authentication
+
+  CertificateArn:
+    Type: String
+    Default: ""
+    Description: ACM certificate ARN for HTTPS (optional – HTTP only if blank)
+
+  VpcId:
+    Type: AWS::EC2::VPC::Id
+    Description: VPC to deploy into
+
+  SubnetIds:
+    Type: List<AWS::EC2::Subnet::Id>
+    Description: Subnets for ALB and EC2 (at least 2 AZs for ALB)
+
+  AllowedCidr:
+    Type: String
+    Default: "0.0.0.0/0"
+    Description: CIDR range allowed to reach the ALB
+
+  Quantization:
+    Type: String
+    Default: int4
+    AllowedValues: [none, int8, int4]
+    Description: Model quantization level
+
+Conditions:
+  HasCertificate: !Not [!Equals [!Ref CertificateArn, ""]]
+
+Resources:
+  # ---- Security Groups ----
+  ALBSecurityGroup:
+    Type: AWS::EC2::SecurityGroup
+    Properties:
+      GroupDescription: BlueprintBid LLM ALB
+      VpcId: !Ref VpcId
+      SecurityGroupIngress:
+        - IpProtocol: tcp
+          FromPort: !If [HasCertificate, 443, 80]
+          ToPort: !If [HasCertificate, 443, 80]
+          CidrIp: !Ref AllowedCidr
+
+  EC2SecurityGroup:
+    Type: AWS::EC2::SecurityGroup
+    Properties:
+      GroupDescription: BlueprintBid LLM EC2
+      VpcId: !Ref VpcId
+      SecurityGroupIngress:
+        - IpProtocol: tcp
+          FromPort: 8000
+          ToPort: 8000
+          SourceSecurityGroupId: !Ref ALBSecurityGroup
+        - IpProtocol: tcp
+          FromPort: 22
+          ToPort: 22
+          CidrIp: !Ref AllowedCidr
+
+  # ---- IAM ----
+  EC2Role:
+    Type: AWS::IAM::Role
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service: ec2.amazonaws.com
+            Action: sts:AssumeRole
+      ManagedPolicyArns:
+        - arn:aws:iam::aws:policy/AmazonSSMManagedInstanceCore
+        - arn:aws:iam::aws:policy/CloudWatchAgentServerPolicy
+
+  EC2InstanceProfile:
+    Type: AWS::IAM::InstanceProfile
+    Properties:
+      Roles: [!Ref EC2Role]
+
+  # ---- EC2 GPU Instance ----
+  LLMInstance:
+    Type: AWS::EC2::Instance
+    Properties:
+      InstanceType: !Ref InstanceType
+      KeyName: !Ref KeyPairName
+      IamInstanceProfile: !Ref EC2InstanceProfile
+      ImageId: !Sub "{{resolve:ssm:/aws/service/canonical/ubuntu/server/22.04/stable/current/amd64/hvm/ebs-gp3/ami-id}}"
+      SecurityGroupIds:
+        - !Ref EC2SecurityGroup
+      SubnetId: !Select [0, !Ref SubnetIds]
+      BlockDeviceMappings:
+        - DeviceName: /dev/sda1
+          Ebs:
+            VolumeSize: 100     # OS + Docker images
+            VolumeType: gp3
+            Encrypted: true
+        - DeviceName: /dev/xvdf
+          Ebs:
+            VolumeSize: 50      # Model weights cache
+            VolumeType: gp3
+            Encrypted: true
+      Tags:
+        - Key: Name
+          Value: blueprintbid-llm
+      UserData:
+        Fn::Base64: !Sub |
+          #!/bin/bash
+          set -euo pipefail
+          exec > >(tee /var/log/blueprintbid-setup.log) 2>&1
+
+          export DEBIAN_FRONTEND=noninteractive
+          apt-get update -y && apt-get upgrade -y
+
+          # Mount model cache volume
+          mkfs.ext4 -F /dev/xvdf || true
+          mkdir -p /data/model_cache
+          mount /dev/xvdf /data/model_cache
+          echo "/dev/xvdf /data/model_cache ext4 defaults,nofail 0 2" >> /etc/fstab
+
+          # Install NVIDIA drivers
+          apt-get install -y linux-headers-$(uname -r)
+          apt-get install -y nvidia-driver-535 nvidia-utils-535
+
+          # Install Docker
+          apt-get install -y docker.io git
+          systemctl enable --now docker
+
+          # NVIDIA Container Toolkit
+          curl -fsSL https://nvidia.github.io/libnvidia-container/gpgkey \
+              | gpg --dearmor -o /usr/share/keyrings/nvidia-container-toolkit-keyring.gpg
+          curl -s -L https://nvidia.github.io/libnvidia-container/stable/deb/nvidia-container-toolkit.list \
+              | sed 's#deb https://#deb [signed-by=/usr/share/keyrings/nvidia-container-toolkit-keyring.gpg] https://#g' \
+              | tee /etc/apt/sources.list.d/nvidia-container-toolkit.list
+          apt-get update -y
+          apt-get install -y nvidia-container-toolkit
+          nvidia-ctk runtime configure --runtime=docker
+          systemctl restart docker
+
+          # Clone and build
+          git clone --branch main https://github.com/RepeatVenture/ConstructionDrawingLLM.git /opt/blueprintbid
+          cd /opt/blueprintbid
+          docker build -t blueprintbid-llm .
+
+          # Run
+          docker run -d \
+              --name blueprintbid-llm \
+              --gpus all \
+              --restart unless-stopped \
+              -p 8000:8000 \
+              -v /data/model_cache:/app/model_cache \
+              -e MODEL_BACKEND=qwen2-vl \
+              -e QUANTIZATION=${Quantization} \
+              -e REQUIRE_AUTH=true \
+              -e BLUEPRINTBID_API_KEY=${ApiKey} \
+              -e MAX_CONCURRENT_REQUESTS=3 \
+              -e ENABLE_OCR=true \
+              blueprintbid-llm
+
+  # ---- Application Load Balancer ----
+  ALB:
+    Type: AWS::ElasticLoadBalancingV2::LoadBalancer
+    Properties:
+      Name: blueprintbid-llm
+      Scheme: internet-facing
+      Type: application
+      SecurityGroups: [!Ref ALBSecurityGroup]
+      Subnets: !Ref SubnetIds
+
+  TargetGroup:
+    Type: AWS::ElasticLoadBalancingV2::TargetGroup
+    Properties:
+      Name: blueprintbid-llm-tg
+      Port: 8000
+      Protocol: HTTP
+      VpcId: !Ref VpcId
+      TargetType: instance
+      Targets:
+        - Id: !Ref LLMInstance
+          Port: 8000
+      HealthCheckPath: /health
+      HealthCheckIntervalSeconds: 30
+      HealthCheckTimeoutSeconds: 10
+      HealthyThresholdCount: 2
+      UnhealthyThresholdCount: 5
+      Matcher:
+        HttpCode: "200"
+
+  ALBListener:
+    Type: AWS::ElasticLoadBalancingV2::Listener
+    Properties:
+      LoadBalancerArn: !Ref ALB
+      Port: !If [HasCertificate, 443, 80]
+      Protocol: !If [HasCertificate, HTTPS, HTTP]
+      Certificates:
+        !If
+          - HasCertificate
+          - - CertificateArn: !Ref CertificateArn
+          - !Ref "AWS::NoValue"
+      DefaultActions:
+        - Type: forward
+          TargetGroupArn: !Ref TargetGroup
+
+Outputs:
+  Endpoint:
+    Description: LLM API endpoint
+    Value: !Sub
+      - "${Protocol}://${ALBDns}"
+      - Protocol: !If [HasCertificate, https, http]
+        ALBDns: !GetAtt ALB.DNSName
+
+  InstanceId:
+    Description: EC2 instance ID (use for SSM Session Manager)
+    Value: !Ref LLMInstance
+
+  SSHCommand:
+    Description: SSH into the instance
+    Value: !Sub "ssh -i ${KeyPairName}.pem ubuntu@${LLMInstance.PublicIp}"
+
+  CostEstimate:
+    Description: Estimated hourly cost
+    Value: !Sub >
+      ${InstanceType} on-demand. Use Savings Plans or Spot for up to 70% off.
+      g5.xlarge ~$1.01/hr ($730/mo), g4dn.xlarge ~$0.53/hr ($380/mo).
+      Consider stopping the instance when not in use.

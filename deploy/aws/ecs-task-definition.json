@@ -1,0 +1,79 @@
+{
+  "family": "blueprintbid-llm",
+  "requiresCompatibilities": ["EC2"],
+  "networkMode": "awsvpc",
+  "cpu": "4096",
+  "memory": "16384",
+  "executionRoleArn": "arn:aws:iam::ACCOUNT_ID:role/ecsTaskExecutionRole",
+  "taskRoleArn": "arn:aws:iam::ACCOUNT_ID:role/ecsTaskRole",
+  "containerDefinitions": [
+    {
+      "name": "blueprintbid-llm",
+      "image": "ACCOUNT_ID.dkr.ecr.REGION.amazonaws.com/blueprintbid-llm:latest",
+      "essential": true,
+      "portMappings": [
+        {
+          "containerPort": 8000,
+          "protocol": "tcp"
+        }
+      ],
+      "environment": [
+        { "name": "MODEL_BACKEND", "value": "qwen2-vl" },
+        { "name": "QUANTIZATION", "value": "int4" },
+        { "name": "MAX_IMAGE_DIM", "value": "2048" },
+        { "name": "ENABLE_OCR", "value": "true" },
+        { "name": "MAX_CONCURRENT_REQUESTS", "value": "3" },
+        { "name": "REQUIRE_AUTH", "value": "true" },
+        { "name": "HF_HOME", "value": "/app/model_cache" },
+        { "name": "TRANSFORMERS_CACHE", "value": "/app/model_cache" }
+      ],
+      "secrets": [
+        {
+          "name": "BLUEPRINTBID_API_KEY",
+          "valueFrom": "arn:aws:ssm:REGION:ACCOUNT_ID:parameter/blueprintbid/api-key"
+        }
+      ],
+      "mountPoints": [
+        {
+          "sourceVolume": "model-cache",
+          "containerPath": "/app/model_cache"
+        }
+      ],
+      "resourceRequirements": [
+        {
+          "type": "GPU",
+          "value": "1"
+        }
+      ],
+      "healthCheck": {
+        "command": ["CMD-SHELL", "python3 -c \"import urllib.request; urllib.request.urlopen('http://localhost:8000/health')\" || exit 1"],
+        "interval": 30,
+        "timeout": 10,
+        "retries": 3,
+        "startPeriod": 180
+      },
+      "logConfiguration": {
+        "logDriver": "awslogs",
+        "options": {
+          "awslogs-group": "/ecs/blueprintbid-llm",
+          "awslogs-region": "REGION",
+          "awslogs-stream-prefix": "ecs"
+        }
+      }
+    }
+  ],
+  "volumes": [
+    {
+      "name": "model-cache",
+      "host": {
+        "sourcePath": "/data/model_cache"
+      }
+    }
+  ],
+  "placementConstraints": [
+    {
+      "type": "memberOf",
+      "expression": "attribute:ecs.instance-type =~ g5.*"
+    }
+  ]
+}

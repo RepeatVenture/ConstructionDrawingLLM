@@ -1,0 +1,17 @@
+# Additional dependencies for fine-tuning (beyond base requirements.txt)
+#
+# Install:  pip install -r training/requirements-training.txt
+
+# LoRA / PEFT
+peft>=0.11.0
+
+# Dataset loading
+datasets>=2.19.0
+
+# Training
+trl>=0.8.0
+deepspeed>=0.14.0          # optional: multi-GPU training
+wandb>=0.17.0              # optional: experiment tracking
+
+# Evaluation
+scikit-learn>=1.4.0
