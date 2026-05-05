@@ -1,0 +1,74 @@
+{
+  "trade": "millwork",
+  "room_number": "312",
+  "room_name": "FISH TANK",
+  "drawing_refs": [
+    "6-8/ID3.24"
+  ],
+  "scopeItems": [
+    {
+      "category": "Cabinetry",
+      "description": "CUSTOM PAINTED FISH TANK SURROUND",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "CUSTOM PAINTED FISH TANK SURROUND"
+      ]
+    },
+    {
+      "category": "Hardware",
+      "description": "ALLOWANCE FOR OIL RUBBED STANDARD HANDLES $35/EACH",
+      "quantity": 4.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "ALLOWANCE FOR OIL RUBBED STANDARD HANDLES $35/EACH"
+      ]
+    },
+    {
+      "category": "Hardware",
+      "description": "TIMBERLINE LOCKS",
+      "quantity": 4.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "TIMBERLINE LOCKS"
+      ]
+    }
+  ],
+  "specSheet": [
+    {
+      "key": "Finish Code",
+      "value": "HW1",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "HW1"
+      ]
+    },
+    {
+      "key": "Finish Code",
+      "value": "M4",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "M4"
+      ]
+    }
+  ],
+  "specifications": []
+}

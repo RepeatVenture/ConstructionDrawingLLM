@@ -1,0 +1,61 @@
+{
+  "trade": "millwork",
+  "room_number": "0",
+  "room_name": "74 SB2",
+  "drawing_refs": [],
+  "scopeItems": [
+    {
+      "category": "Cabinetry",
+      "description": "2 FH Door Sink Base (High-End WV-01.1",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "2 FH Door Sink Base (High-End WV-01.1"
+      ]
+    },
+    {
+      "category": "Hardware",
+      "description": "Pulls",
+      "quantity": 2.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "Pulls"
+      ]
+    },
+    {
+      "category": "Cabinetry",
+      "description": "Mirror medicine Cabinet Mirror",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "Mirror medicine Cabinet Mirror"
+      ]
+    }
+  ],
+  "specSheet": [
+    {
+      "key": "Finish Code",
+      "value": "HW-05",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "HW-05"
+      ]
+    }
+  ],
+  "specifications": []
+}

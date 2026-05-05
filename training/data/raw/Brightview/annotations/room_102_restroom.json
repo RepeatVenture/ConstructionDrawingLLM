@@ -1,0 +1,61 @@
+{
+  "trade": "millwork",
+  "room_number": "102",
+  "room_name": "RESTROOM",
+  "drawing_refs": [
+    "10/ID3.11"
+  ],
+  "scopeItems": [
+    {
+      "category": "Cabinetry",
+      "description": "LAMINATE ADA CABINET",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "LAMINATE ADA CABINET"
+      ]
+    },
+    {
+      "category": "Trim",
+      "description": "TRIM/CROWN/CHAIR RAIL",
+      "quantity": 20.0,
+      "unit": "lf",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "TRIM/CROWN/CHAIR RAIL"
+      ]
+    }
+  ],
+  "specSheet": [
+    {
+      "key": "Finish Code",
+      "value": "L1",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "L1"
+      ]
+    },
+    {
+      "key": "Finish Code",
+      "value": "PRIMED",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "PRIMED"
+      ]
+    }
+  ],
+  "specifications": []
+}

@@ -1,0 +1,98 @@
+{
+  "trade": "millwork",
+  "room_number": "208",
+  "room_name": "68 MB1",
+  "drawing_refs": [],
+  "scopeItems": [
+    {
+      "category": "Cabinetry",
+      "description": "2 FH Door Base",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "2 FH Door Base"
+      ]
+    },
+    {
+      "category": "Shelving",
+      "description": "Surround, shelf",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "Surround, shelf"
+      ]
+    },
+    {
+      "category": "Hardware",
+      "description": "Pulls",
+      "quantity": 2.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "Pulls"
+      ]
+    },
+    {
+      "category": "Trim",
+      "description": "Portal- 7\"x2\" Jamb/Head w/ metal u- channel WV-01.1",
+      "quantity": 25.0,
+      "unit": "lf",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "Portal- 7\"x2\" Jamb/Head w/ metal u- channel WV-01."
+      ]
+    },
+    {
+      "category": "Paneling",
+      "description": "Wood veneer on MDF w/ 1\"x1\" perimeter trim. Panels to be attached w/ z-clips. Walls and ceiling WV-01.1",
+      "quantity": 310.0,
+      "unit": "sf",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "Wood veneer on MDF w/ 1\"x1\" perimeter trim. Panels"
+      ]
+    }
+  ],
+  "specSheet": [
+    {
+      "key": "Finish Code",
+      "value": "WD-01",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "WD-01"
+      ]
+    },
+    {
+      "key": "Finish Code",
+      "value": "HW-19",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "HW-19"
+      ]
+    }
+  ],
+  "specifications": []
+}

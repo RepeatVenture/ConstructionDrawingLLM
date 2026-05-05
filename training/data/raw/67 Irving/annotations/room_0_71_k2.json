@@ -1,0 +1,302 @@
+{
+  "trade": "millwork",
+  "room_number": "0",
+  "room_name": "71 K2",
+  "drawing_refs": [],
+  "scopeItems": [
+    {
+      "category": "Cabinetry",
+      "description": "Frameless Corner Blind Cabinet with Folding Doors Finished",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "Frameless Corner Blind Cabinet with Folding Doors "
+      ]
+    },
+    {
+      "category": "Cabinetry",
+      "description": "Frameless 3 Drawer Base Cabinet Finished",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "Frameless 3 Drawer Base Cabinet Finished"
+      ]
+    },
+    {
+      "category": "Cabinetry",
+      "description": "Dishwasher Panel Finished",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "Dishwasher Panel Finished"
+      ]
+    },
+    {
+      "category": "Cabinetry",
+      "description": "Frameless FH 2 Door Door Sink Base Finished",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "Frameless FH 2 Door Door Sink Base Finished"
+      ]
+    },
+    {
+      "category": "Cabinetry",
+      "description": "Frameless 2 Door 1 Drawer Base Cabinet Finished",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "Frameless 2 Door 1 Drawer Base Cabinet Finished"
+      ]
+    },
+    {
+      "category": "Cabinetry",
+      "description": "Frameless FH 1 Door Cabinet Finished",
+      "quantity": 2.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "Frameless FH 1 Door Cabinet Finished"
+      ]
+    },
+    {
+      "category": "Cabinetry",
+      "description": "Frameless Open Shelf Cabinet finished interior and exterior",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "Frameless Open Shelf Cabinet finished interior and"
+      ]
+    },
+    {
+      "category": "Hardware",
+      "description": "Pulls",
+      "quantity": 9.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "Pulls"
+      ]
+    },
+    {
+      "category": "Hardware",
+      "description": "Pulls",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "Pulls"
+      ]
+    },
+    {
+      "category": "Cabinetry",
+      "description": "Frameless 3 Drawer Base Cabinet Finished",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "Frameless 3 Drawer Base Cabinet Finished"
+      ]
+    },
+    {
+      "category": "Cabinetry",
+      "description": "Frameless 3 Drawer Base Cabinet Finished",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "Frameless 3 Drawer Base Cabinet Finished"
+      ]
+    },
+    {
+      "category": "Cabinetry",
+      "description": "Frameless Microwave Cabinet, finished microwave interior with 1 Drawer Finished",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "Frameless Microwave Cabinet, finished microwave in"
+      ]
+    },
+    {
+      "category": "Cabinetry",
+      "description": "Frameless FH 1 Door Cabinet Finished",
+      "quantity": 2.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "Frameless FH 1 Door Cabinet Finished"
+      ]
+    },
+    {
+      "category": "Hardware",
+      "description": "Pulls",
+      "quantity": 8.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "Pulls"
+      ]
+    },
+    {
+      "category": "Cabinetry",
+      "description": "Frameless FH 2 Doors Finished",
+      "quantity": 4.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "Frameless FH 2 Doors Finished"
+      ]
+    },
+    {
+      "category": "Cabinetry",
+      "description": "Add on door upcharge",
+      "quantity": 17.0,
+      "unit": "sf",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "Add on door upcharge"
+      ]
+    },
+    {
+      "category": "Hardware",
+      "description": "Pulls",
+      "quantity": 8.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "Pulls"
+      ]
+    },
+    {
+      "category": "Cabinetry",
+      "description": "Island Chase Wall",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "Island Chase Wall"
+      ]
+    },
+    {
+      "category": "Cabinetry",
+      "description": "Reveal @ countertop",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "Reveal @ countertop"
+      ]
+    }
+  ],
+  "specSheet": [
+    {
+      "key": "Finish Code",
+      "value": "WD-01",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "WD-01"
+      ]
+    },
+    {
+      "key": "Finish Code",
+      "value": "HW-19",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "HW-19"
+      ]
+    },
+    {
+      "key": "Finish Code",
+      "value": "WD-03",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "WD-03"
+      ]
+    },
+    {
+      "key": "Finish Code",
+      "value": "HW-20",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "HW-20"
+      ]
+    }
+  ],
+  "specifications": []
+}

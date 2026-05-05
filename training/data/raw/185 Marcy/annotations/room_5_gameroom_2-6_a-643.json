@@ -1,0 +1,25 @@
+{
+  "trade": "millwork",
+  "room_number": "5",
+  "room_name": "GAMEROOM 2-6/A-643",
+  "drawing_refs": [
+    "1/A-600"
+  ],
+  "scopeItems": [
+    {
+      "category": "Cabinetry",
+      "description": "KITCHEN W/ ISLAND",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "KITCHEN W/ ISLAND"
+      ]
+    }
+  ],
+  "specSheet": [],
+  "specifications": []
+}

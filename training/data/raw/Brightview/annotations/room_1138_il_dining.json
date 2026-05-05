@@ -1,0 +1,148 @@
+{
+  "trade": "millwork",
+  "room_number": "1138",
+  "room_name": "IL DINING",
+  "drawing_refs": [
+    "7/ID3.3"
+  ],
+  "scopeItems": [
+    {
+      "category": "Trim",
+      "description": "FEATURE WALL PRIMED APPLIED MOULDING AND FLAT STOCK",
+      "quantity": 200.0,
+      "unit": "lf",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "FEATURE WALL PRIMED APPLIED MOULDING AND FLAT STOC"
+      ]
+    },
+    {
+      "category": "Cabinetry",
+      "description": "ALLOWANCE FOR 2 SCREEN WALLS $10000/EACH",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "ALLOWANCE FOR 2 SCREEN WALLS $10000/EACH"
+      ]
+    },
+    {
+      "category": "Trim",
+      "description": "2 FEATURE WALLS PRIMED APPLIED MOULDING AND FLAT STOCK",
+      "quantity": 100.0,
+      "unit": "lf",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "2 FEATURE WALLS PRIMED APPLIED MOULDING AND FLAT S"
+      ]
+    },
+    {
+      "category": "Column",
+      "description": "2 STAINED COLUMNS WITH HEADER",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "2 STAINED COLUMNS WITH HEADER"
+      ]
+    },
+    {
+      "category": "Cabinetry",
+      "description": "ALLOWANCE FOR 2 CUSTOM BARN DOORS $5000/EACH",
+      "quantity": 2.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "ALLOWANCE FOR 2 CUSTOM BARN DOORS $5000/EACH"
+      ]
+    },
+    {
+      "category": "Trim",
+      "description": "FEATURE WALL PRIMED APPLIED MOULDING AND FLAT STOCK",
+      "quantity": 100.0,
+      "unit": "lf",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "FEATURE WALL PRIMED APPLIED MOULDING AND FLAT STOC"
+      ]
+    },
+    {
+      "category": "Hardware",
+      "description": "ALLOWANCE FOR OIL RUBBED LONG HANDLES $75/EACH",
+      "quantity": 2.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "ALLOWANCE FOR OIL RUBBED LONG HANDLES $75/EACH"
+      ]
+    }
+  ],
+  "specSheet": [
+    {
+      "key": "Finish Code",
+      "value": "S1",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "S1"
+      ]
+    },
+    {
+      "key": "Finish Code",
+      "value": "S2",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "S2"
+      ]
+    },
+    {
+      "key": "Finish Code",
+      "value": "PRIMED",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "PRIMED"
+      ]
+    },
+    {
+      "key": "Finish Code",
+      "value": "HW3",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "HW3"
+      ]
+    }
+  ],
+  "specifications": []
+}

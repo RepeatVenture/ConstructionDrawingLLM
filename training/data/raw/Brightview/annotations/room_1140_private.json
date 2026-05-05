@@ -1,0 +1,270 @@
+{
+  "trade": "millwork",
+  "room_number": "1140",
+  "room_name": "PRIVATE",
+  "drawing_refs": [
+    "2/ID3.7"
+  ],
+  "scopeItems": [
+    {
+      "category": "Cabinetry",
+      "description": "GLASS/STAINED CABINETS AND STAINED CABINETS WITH STAINED BASE",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "GLASS/STAINED CABINETS AND STAINED CABINETS WITH S"
+      ]
+    },
+    {
+      "category": "Paneling",
+      "description": "PRIMED SHIP LAP",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "PRIMED SHIP LAP"
+      ]
+    },
+    {
+      "category": "Column",
+      "description": "4 STAINED COLUMNS WITH 2 HEADERS",
+      "quantity": 360.0,
+      "unit": "sf",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "4 STAINED COLUMNS WITH 2 HEADERS"
+      ]
+    },
+    {
+      "category": "Cabinetry",
+      "description": "FULL CUSTOM BAR: CABINETRY, FOOTRAIL AND METAL FRAME WITH FIXED GLASS SHELVES",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "FULL CUSTOM BAR: CABINETRY, FOOTRAIL AND METAL FRA"
+      ]
+    },
+    {
+      "category": "Paneling",
+      "description": "PRIMED SHIP LAP",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "PRIMED SHIP LAP"
+      ]
+    },
+    {
+      "category": "Cabinetry",
+      "description": "CUSTOM PAINTED LIQUOR CABINET",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "CUSTOM PAINTED LIQUOR CABINET"
+      ]
+    },
+    {
+      "category": "Trim",
+      "description": "FEATURE WALL PRIMED APPLIED MOULDING AND FLAT STOCK",
+      "quantity": 150.0,
+      "unit": "lf",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "FEATURE WALL PRIMED APPLIED MOULDING AND FLAT STOC"
+      ]
+    },
+    {
+      "category": "Paneling",
+      "description": "STAINED WOOD PLANK WALL, BASE, AND CROWN",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "STAINED WOOD PLANK WALL, BASE, AND CROWN"
+      ]
+    },
+    {
+      "category": "Hardware",
+      "description": "ALLOWANCE FOR OIL RUBBED STANDARD HANDLES $35/EACH",
+      "quantity": 13.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "ALLOWANCE FOR OIL RUBBED STANDARD HANDLES $35/EACH"
+      ]
+    },
+    {
+      "category": "Hardware",
+      "description": "ALLOWANCE FOR OIL RUBBED FINGER PULLS $25/EACH",
+      "quantity": 8.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "ALLOWANCE FOR OIL RUBBED FINGER PULLS $25/EACH"
+      ]
+    },
+    {
+      "category": "Hardware",
+      "description": "ALLOWANCE FOR LIQUOR CABINET HANDLES $20/EACH",
+      "quantity": 20.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "ALLOWANCE FOR LIQUOR CABINET HANDLES $20/EACH"
+      ]
+    },
+    {
+      "category": "Hardware",
+      "description": "TIMBERLINE LOCKS",
+      "quantity": 13.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "TIMBERLINE LOCKS"
+      ]
+    },
+    {
+      "category": "Trim",
+      "description": "TRIM/CROWN/CHAIR RAIL",
+      "quantity": 632.0,
+      "unit": "lf",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "TRIM/CROWN/CHAIR RAIL"
+      ]
+    }
+  ],
+  "specSheet": [
+    {
+      "key": "Finish Code",
+      "value": "S1",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "S1"
+      ]
+    },
+    {
+      "key": "Finish Code",
+      "value": "PRIMED",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "PRIMED"
+      ]
+    },
+    {
+      "key": "Finish Code",
+      "value": "HW1",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "HW1"
+      ]
+    },
+    {
+      "key": "Finish Code",
+      "value": "M3",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "M3"
+      ]
+    },
+    {
+      "key": "Finish Code",
+      "value": "HW4",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "HW4"
+      ]
+    },
+    {
+      "key": "Finish Code",
+      "value": "M1/S1",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "M1/S1"
+      ]
+    },
+    {
+      "key": "Finish Code",
+      "value": "HW2",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "HW2"
+      ]
+    },
+    {
+      "key": "Finish Code",
+      "value": "M2",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "M2"
+      ]
+    }
+  ],
+  "specifications": []
+}

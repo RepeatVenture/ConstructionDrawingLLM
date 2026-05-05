@@ -1,0 +1,37 @@
+{
+  "trade": "millwork",
+  "room_number": "1116",
+  "room_name": "THEATRE ENTRY 3/ID3.9",
+  "drawing_refs": [
+    "1/ID3.9"
+  ],
+  "scopeItems": [
+    {
+      "category": "Column",
+      "description": "2 STAINED PILASTER AND CUFF",
+      "quantity": 180.0,
+      "unit": "sf",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "2 STAINED PILASTER AND CUFF"
+      ]
+    }
+  ],
+  "specSheet": [
+    {
+      "key": "Finish Code",
+      "value": "S1",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "S1"
+      ]
+    }
+  ],
+  "specifications": []
+}

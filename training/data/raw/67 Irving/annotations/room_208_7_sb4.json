@@ -1,0 +1,72 @@
+{
+  "trade": "millwork",
+  "room_number": "208",
+  "room_name": "7 SB4",
+  "drawing_refs": [],
+  "scopeItems": [
+    {
+      "category": "Cabinetry",
+      "description": "2 FH Door Base",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "2 FH Door Base"
+      ]
+    },
+    {
+      "category": "Shelving",
+      "description": "Surround, shelf",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "Surround, shelf"
+      ]
+    },
+    {
+      "category": "Hardware",
+      "description": "Pulls",
+      "quantity": 2.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "Pulls"
+      ]
+    }
+  ],
+  "specSheet": [
+    {
+      "key": "Finish Code",
+      "value": "WD-01",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "WD-01"
+      ]
+    },
+    {
+      "key": "Finish Code",
+      "value": "HW-19",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "HW-19"
+      ]
+    }
+  ],
+  "specifications": []
+}

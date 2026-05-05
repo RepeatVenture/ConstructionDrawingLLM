@@ -1,0 +1,100 @@
+{
+  "trade": "millwork",
+  "room_number": "306",
+  "room_name": "WELLSPRING",
+  "drawing_refs": [
+    "6-8/ID3.24"
+  ],
+  "scopeItems": [
+    {
+      "category": "Cabinetry",
+      "description": "CUSTOM BAR: CABINETRY AND STAINED FLUTED WOOD M3/L1/S1",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "CUSTOM BAR: CABINETRY AND STAINED FLUTED WOOD M3/L"
+      ]
+    },
+    {
+      "category": "Trim",
+      "description": "BOARD AND BATTEN",
+      "quantity": 200.0,
+      "unit": "lf",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "BOARD AND BATTEN"
+      ]
+    },
+    {
+      "category": "Hardware",
+      "description": "ALLOWANCE FOR OIL RUBBED STANDARD HANDLES $35/EACH",
+      "quantity": 7.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "ALLOWANCE FOR OIL RUBBED STANDARD HANDLES $35/EACH"
+      ]
+    },
+    {
+      "category": "Hardware",
+      "description": "TIMBERLINE LOCKS",
+      "quantity": 7.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "TIMBERLINE LOCKS"
+      ]
+    },
+    {
+      "category": "Trim",
+      "description": "TRIM/CROWN/CHAIR RAIL",
+      "quantity": 364.0,
+      "unit": "lf",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "TRIM/CROWN/CHAIR RAIL"
+      ]
+    }
+  ],
+  "specSheet": [
+    {
+      "key": "Finish Code",
+      "value": "HW1",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "HW1"
+      ]
+    },
+    {
+      "key": "Finish Code",
+      "value": "PRIMED",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "PRIMED"
+      ]
+    }
+  ],
+  "specifications": []
+}

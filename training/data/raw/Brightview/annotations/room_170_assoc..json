@@ -1,0 +1,109 @@
+{
+  "trade": "millwork",
+  "room_number": "170",
+  "room_name": "ASSOC.",
+  "drawing_refs": [
+    "10/ID3.11"
+  ],
+  "scopeItems": [
+    {
+      "category": "Cabinetry",
+      "description": "PAINTED CABINETRY",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "PAINTED CABINETRY"
+      ]
+    },
+    {
+      "category": "Shelving",
+      "description": "STAINED FLOATING SHELF",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "STAINED FLOATING SHELF"
+      ]
+    },
+    {
+      "category": "Hardware",
+      "description": "ALLOWANCE FOR OIL RUBBED STANDARD HANDLES $35/EACH",
+      "quantity": 15.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "ALLOWANCE FOR OIL RUBBED STANDARD HANDLES $35/EACH"
+      ]
+    },
+    {
+      "category": "Trim",
+      "description": "TRIM/CROWN/CHAIR RAIL",
+      "quantity": 356.0,
+      "unit": "lf",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "TRIM/CROWN/CHAIR RAIL"
+      ]
+    }
+  ],
+  "specSheet": [
+    {
+      "key": "Finish Code",
+      "value": "S1",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "S1"
+      ]
+    },
+    {
+      "key": "Finish Code",
+      "value": "HW1",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "HW1"
+      ]
+    },
+    {
+      "key": "Finish Code",
+      "value": "M2",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "M2"
+      ]
+    },
+    {
+      "key": "Finish Code",
+      "value": "PRIMED",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "PRIMED"
+      ]
+    }
+  ],
+  "specifications": []
+}

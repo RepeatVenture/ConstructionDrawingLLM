@@ -1,0 +1,204 @@
+{
+  "trade": "millwork",
+  "room_number": "0",
+  "room_name": "KITCHEN D",
+  "drawing_refs": [
+    "1/A-600"
+  ],
+  "scopeItems": [
+    {
+      "category": "Cabinetry",
+      "description": "30\" 2 DOOR SINK BASE",
+      "quantity": 2.5,
+      "unit": "lf",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "30\" 2 DOOR SINK BASE"
+      ]
+    },
+    {
+      "category": "Cabinetry",
+      "description": "DISHWASHER PANEL",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "DISHWASHER PANEL"
+      ]
+    },
+    {
+      "category": "Cabinetry",
+      "description": "24\" OVEN CABINET",
+      "quantity": 2.0,
+      "unit": "lf",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "24\" OVEN CABINET"
+      ]
+    },
+    {
+      "category": "Cabinetry",
+      "description": "30\" 2 DOOR BASE",
+      "quantity": 2.0,
+      "unit": "lf",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "30\" 2 DOOR BASE"
+      ]
+    },
+    {
+      "category": "Cabinetry",
+      "description": "24\" ABOVE FRIDGE CABINET",
+      "quantity": 2.0,
+      "unit": "lf",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "24\" ABOVE FRIDGE CABINET"
+      ]
+    },
+    {
+      "category": "Cabinetry",
+      "description": "30\" 2 DOOR UPPER",
+      "quantity": 2.0,
+      "unit": "lf",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "30\" 2 DOOR UPPER"
+      ]
+    },
+    {
+      "category": "Cabinetry",
+      "description": "24\" 1 DOOR UPPER",
+      "quantity": 2.0,
+      "unit": "lf",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "24\" 1 DOOR UPPER"
+      ]
+    },
+    {
+      "category": "Cabinetry",
+      "description": "24\" 2 DOOR ABOVE MICROWAVE CABINET",
+      "quantity": 2.0,
+      "unit": "lf",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "24\" 2 DOOR ABOVE MICROWAVE CABINET"
+      ]
+    },
+    {
+      "category": "Cabinetry",
+      "description": "30\" 2 DOOR UPPER",
+      "quantity": 2.0,
+      "unit": "lf",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "30\" 2 DOOR UPPER"
+      ]
+    },
+    {
+      "category": "Cabinetry",
+      "description": "TALL PANEL",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "TALL PANEL"
+      ]
+    },
+    {
+      "category": "Cabinetry",
+      "description": "FILLERS",
+      "quantity": 3.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "FILLERS"
+      ]
+    },
+    {
+      "category": "Cabinetry",
+      "description": "FILLERS",
+      "quantity": 2.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "FILLERS"
+      ]
+    },
+    {
+      "category": "Cabinetry",
+      "description": "FIRE RATED SOFFIT",
+      "quantity": 13.0,
+      "unit": "lf",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "FIRE RATED SOFFIT"
+      ]
+    }
+  ],
+  "specSheet": [
+    {
+      "key": "Finish Code",
+      "value": "WD01B",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "WD01B"
+      ]
+    },
+    {
+      "key": "Finish Code",
+      "value": "WD01A",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "WD01A"
+      ]
+    }
+  ],
+  "specifications": []
+}

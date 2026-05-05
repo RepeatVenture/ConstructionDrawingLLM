@@ -1,0 +1,133 @@
+{
+  "trade": "millwork",
+  "room_number": "100",
+  "room_name": "LIBRARY",
+  "drawing_refs": [
+    "2/ID3.15"
+  ],
+  "scopeItems": [
+    {
+      "category": "Cabinetry",
+      "description": "2 BOOK SHELF BUILT IN UNITS",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "2 BOOK SHELF BUILT IN UNITS"
+      ]
+    },
+    {
+      "category": "Paneling",
+      "description": "ALLOWANCE FOR TERRAMAI TAMBOUR PANELING $14000",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "ALLOWANCE FOR TERRAMAI TAMBOUR PANELING $14000"
+      ]
+    },
+    {
+      "category": "Cabinetry",
+      "description": "MAIL CUBBIES",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "MAIL CUBBIES"
+      ]
+    },
+    {
+      "category": "Hardware",
+      "description": "ALLOWANCE FOR OIL RUBBED FINGER PULLS $25/EACH",
+      "quantity": 8.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "ALLOWANCE FOR OIL RUBBED FINGER PULLS $25/EACH"
+      ]
+    },
+    {
+      "category": "Trim",
+      "description": "TRIM/CROWN/CHAIR RAIL",
+      "quantity": 560.0,
+      "unit": "lf",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "TRIM/CROWN/CHAIR RAIL"
+      ]
+    }
+  ],
+  "specSheet": [
+    {
+      "key": "Finish Code",
+      "value": "S1",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "S1"
+      ]
+    },
+    {
+      "key": "Finish Code",
+      "value": "PRIMED",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "PRIMED"
+      ]
+    },
+    {
+      "key": "Finish Code",
+      "value": "M1/S1",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "M1/S1"
+      ]
+    },
+    {
+      "key": "Finish Code",
+      "value": "HW2",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "HW2"
+      ]
+    },
+    {
+      "key": "Finish Code",
+      "value": "M2",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "M2"
+      ]
+    }
+  ],
+  "specifications": []
+}

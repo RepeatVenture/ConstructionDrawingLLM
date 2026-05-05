@@ -1,0 +1,148 @@
+{
+  "trade": "millwork",
+  "room_number": "1135",
+  "room_name": "MULTIPURPOSE",
+  "drawing_refs": [
+    "1/ID3.8"
+  ],
+  "scopeItems": [
+    {
+      "category": "Cabinetry",
+      "description": "PAINTED BASE CABINETS",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "PAINTED BASE CABINETS"
+      ]
+    },
+    {
+      "category": "Paneling",
+      "description": "ACCENT PRIMED TRIM BOARD AND CROWN FLAT STOCK",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "ACCENT PRIMED TRIM BOARD AND CROWN FLAT STOCK"
+      ]
+    },
+    {
+      "category": "Cabinetry",
+      "description": "STAINED BASE CABINETS",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "STAINED BASE CABINETS"
+      ]
+    },
+    {
+      "category": "Shelving",
+      "description": "STAINED FLOATING SHELF WITH CONCEALED LIGHT",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "STAINED FLOATING SHELF WITH CONCEALED LIGHT"
+      ]
+    },
+    {
+      "category": "Shelving",
+      "description": "FLOATING SHELF",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "FLOATING SHELF"
+      ]
+    },
+    {
+      "category": "Hardware",
+      "description": "ALLOWANCE FOR OIL RUBBED STANDARD HANDLES $35/EACH",
+      "quantity": 15.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "ALLOWANCE FOR OIL RUBBED STANDARD HANDLES $35/EACH"
+      ]
+    },
+    {
+      "category": "Trim",
+      "description": "TRIM/CROWN/CHAIR RAIL",
+      "quantity": 412.0,
+      "unit": "lf",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "TRIM/CROWN/CHAIR RAIL"
+      ]
+    }
+  ],
+  "specSheet": [
+    {
+      "key": "Finish Code",
+      "value": "M1/S1",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "M1/S1"
+      ]
+    },
+    {
+      "key": "Finish Code",
+      "value": "HW1",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "HW1"
+      ]
+    },
+    {
+      "key": "Finish Code",
+      "value": "M2",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "M2"
+      ]
+    },
+    {
+      "key": "Finish Code",
+      "value": "PRIMED",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "PRIMED"
+      ]
+    }
+  ],
+  "specifications": []
+}

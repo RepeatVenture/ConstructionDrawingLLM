@@ -1,0 +1,98 @@
+{
+  "trade": "millwork",
+  "room_number": "144",
+  "room_name": "ECAL DINING",
+  "drawing_refs": [
+    "3/ID3.18"
+  ],
+  "scopeItems": [
+    {
+      "category": "Cabinetry",
+      "description": "PAINTED CUSTOM KITCHEN",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "PAINTED CUSTOM KITCHEN"
+      ]
+    },
+    {
+      "category": "Column",
+      "description": "4 STAINED COLUMNS",
+      "quantity": 240.0,
+      "unit": "sf",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "4 STAINED COLUMNS"
+      ]
+    },
+    {
+      "category": "Cabinetry",
+      "description": "ALLOWANCE FOR STAINED SCREEN $10000",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "ALLOWANCE FOR STAINED SCREEN $10000"
+      ]
+    },
+    {
+      "category": "Hardware",
+      "description": "ALLOWANCE FOR OIL RUBBED STANDARD HANDLES $35/EACH",
+      "quantity": 8.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "ALLOWANCE FOR OIL RUBBED STANDARD HANDLES $35/EACH"
+      ]
+    }
+  ],
+  "specSheet": [
+    {
+      "key": "Finish Code",
+      "value": "S1",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "S1"
+      ]
+    },
+    {
+      "key": "Finish Code",
+      "value": "HW1",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "HW1"
+      ]
+    },
+    {
+      "key": "Finish Code",
+      "value": "M2",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "M2"
+      ]
+    }
+  ],
+  "specifications": []
+}

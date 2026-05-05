@@ -1,0 +1,25 @@
+{
+  "trade": "millwork",
+  "room_number": "102",
+  "room_name": "RECEPTION",
+  "drawing_refs": [
+    "1/A-600"
+  ],
+  "scopeItems": [
+    {
+      "category": "Cabinetry",
+      "description": "RECEPTION DESK",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "RECEPTION DESK"
+      ]
+    }
+  ],
+  "specSheet": [],
+  "specifications": []
+}

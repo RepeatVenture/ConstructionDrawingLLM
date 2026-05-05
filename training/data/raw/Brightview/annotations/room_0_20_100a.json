@@ -1,0 +1,139 @@
+{
+  "trade": "millwork",
+  "room_number": "0",
+  "room_name": "20 100A",
+  "drawing_refs": [
+    "10/ID3.11"
+  ],
+  "scopeItems": [
+    {
+      "category": "Paneling",
+      "description": "SHIP LAP",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "SHIP LAP"
+      ]
+    },
+    {
+      "category": "Column",
+      "description": "2 STAINED COLUMNS WITH HEADER",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "2 STAINED COLUMNS WITH HEADER"
+      ]
+    },
+    {
+      "category": "Trim",
+      "description": "STAINED TRIM",
+      "quantity": 100.0,
+      "unit": "lf",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "STAINED TRIM"
+      ]
+    },
+    {
+      "category": "Column",
+      "description": "1 STAINED COLUMN",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "1 STAINED COLUMN"
+      ]
+    },
+    {
+      "category": "Stairs",
+      "description": "STILLWELL STAIRS ALLOWANCE FOR TREADS, RISERS, WOOD CAP AND HANDRAIL $21570",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "STILLWELL STAIRS ALLOWANCE FOR TREADS, RISERS, WOO"
+      ]
+    },
+    {
+      "category": "Stairs",
+      "description": "ALLOWANCE FOR CABLE RAILING SYSTEM $5000",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "ALLOWANCE FOR CABLE RAILING SYSTEM $5000"
+      ]
+    },
+    {
+      "category": "Trim",
+      "description": "TRIM/CROWN/CHAIR RAIL",
+      "quantity": 206.0,
+      "unit": "lf",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "TRIM/CROWN/CHAIR RAIL"
+      ]
+    },
+    {
+      "category": "Trim",
+      "description": "STAINED TRIM/CROWN/CHAIR RAIL",
+      "quantity": 10.0,
+      "unit": "lf",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "STAINED TRIM/CROWN/CHAIR RAIL"
+      ]
+    }
+  ],
+  "specSheet": [
+    {
+      "key": "Finish Code",
+      "value": "S1",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "S1"
+      ]
+    },
+    {
+      "key": "Finish Code",
+      "value": "PRIMED",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "PRIMED"
+      ]
+    }
+  ],
+  "specifications": []
+}

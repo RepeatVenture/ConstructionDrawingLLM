@@ -1,0 +1,25 @@
+{
+  "trade": "millwork",
+  "room_number": "2",
+  "room_name": "2 EA",
+  "drawing_refs": [
+    "7.1"
+  ],
+  "scopeItems": [
+    {
+      "category": "Shelving",
+      "description": "LAMINATE SHELF W/ BRACKETS",
+      "quantity": 3.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "LAMINATE SHELF W/ BRACKETS"
+      ]
+    }
+  ],
+  "specSheet": [],
+  "specifications": []
+}

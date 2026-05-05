@@ -1,0 +1,50 @@
+{
+  "trade": "millwork",
+  "room_number": "1143",
+  "room_name": "VEST",
+  "drawing_refs": [
+    "5-8/ID3.2"
+  ],
+  "scopeItems": [
+    {
+      "category": "Trim",
+      "description": "PRIMED BOARD AND BATTEN",
+      "quantity": 100.0,
+      "unit": "lf",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "PRIMED BOARD AND BATTEN"
+      ]
+    },
+    {
+      "category": "Trim",
+      "description": "TRIM/CROWN/CHAIR RAIL",
+      "quantity": 150.0,
+      "unit": "lf",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "TRIM/CROWN/CHAIR RAIL"
+      ]
+    }
+  ],
+  "specSheet": [
+    {
+      "key": "Finish Code",
+      "value": "PRIMED",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "PRIMED"
+      ]
+    }
+  ],
+  "specifications": []
+}

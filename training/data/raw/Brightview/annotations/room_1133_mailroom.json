@@ -1,0 +1,85 @@
+{
+  "trade": "millwork",
+  "room_number": "1133",
+  "room_name": "MAILROOM",
+  "drawing_refs": [
+    "3-5/ID3.7"
+  ],
+  "scopeItems": [
+    {
+      "category": "Trim",
+      "description": "PRIMED BOARD AND BATTEN",
+      "quantity": 200.0,
+      "unit": "lf",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "PRIMED BOARD AND BATTEN"
+      ]
+    },
+    {
+      "category": "Cabinetry",
+      "description": "MAILROOM ISLAND",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "MAILROOM ISLAND"
+      ]
+    },
+    {
+      "category": "Hardware",
+      "description": "ALLOWANCE FOR OIL RUBBED FINGER PULLS $25/EACH",
+      "quantity": 4.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "ALLOWANCE FOR OIL RUBBED FINGER PULLS $25/EACH"
+      ]
+    }
+  ],
+  "specSheet": [
+    {
+      "key": "Finish Code",
+      "value": "HW2",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "HW2"
+      ]
+    },
+    {
+      "key": "Finish Code",
+      "value": "M2",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "M2"
+      ]
+    },
+    {
+      "key": "Finish Code",
+      "value": "PRIMED",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "PRIMED"
+      ]
+    }
+  ],
+  "specifications": []
+}

@@ -1,0 +1,328 @@
+{
+  "trade": "millwork",
+  "room_number": "0",
+  "room_name": "3RD FLOOR",
+  "drawing_refs": [],
+  "scopeItems": [
+    {
+      "category": "Cabinetry",
+      "description": "Frameless 3 Drawer Base Cabinet Finished",
+      "quantity": 2.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "Frameless 3 Drawer Base Cabinet Finished"
+      ]
+    },
+    {
+      "category": "Cabinetry",
+      "description": "Frameless FH Door Tray Base Finished",
+      "quantity": 2.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "Frameless FH Door Tray Base Finished"
+      ]
+    },
+    {
+      "category": "Cabinetry",
+      "description": "Frameless 2 Drawer Stovetop Base Cabinet Finished",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "Frameless 2 Drawer Stovetop Base Cabinet Finished"
+      ]
+    },
+    {
+      "category": "Cabinetry",
+      "description": "Frameless 3/2 Door Upper Cabinet, Top Swing up Cabinet Finished",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "Frameless 3/2 Door Upper Cabinet, Top Swing up Cab"
+      ]
+    },
+    {
+      "category": "Cabinetry",
+      "description": "Frameless 3/2 Door Upper Cabinet, Finished Interiors @ glass Doors, Top Swing up Cabinet Finished",
+      "quantity": 2.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "Frameless 3/2 Door Upper Cabinet, Finished Interio"
+      ]
+    },
+    {
+      "category": "Cabinetry",
+      "description": "Frameless Oven Cabinet with 1 Drawer Finished",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "Frameless Oven Cabinet with 1 Drawer Finished"
+      ]
+    },
+    {
+      "category": "Cabinetry",
+      "description": "Frameless Tall Regrigerator Cabinet, Panels and  Swing up door Finished",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "Frameless Tall Regrigerator Cabinet, Panels and  S"
+      ]
+    },
+    {
+      "category": "Glass",
+      "description": "Glass for 2 doors",
+      "quantity": 2.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "Glass for 2 doors"
+      ]
+    },
+    {
+      "category": "Hardware",
+      "description": "Pulls",
+      "quantity": 2.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "Pulls"
+      ]
+    },
+    {
+      "category": "Hardware",
+      "description": "Pulls",
+      "quantity": 24.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "Pulls"
+      ]
+    },
+    {
+      "category": "Hardware",
+      "description": "Spice Rack pullout",
+      "quantity": 2.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "Spice Rack pullout"
+      ]
+    },
+    {
+      "category": "Cabinetry",
+      "description": "Frameless 3 Drawer Base Cabinet Finished",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "Frameless 3 Drawer Base Cabinet Finished"
+      ]
+    },
+    {
+      "category": "Cabinetry",
+      "description": "Frameless FH Garbage Pullout Finished",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "Frameless FH Garbage Pullout Finished"
+      ]
+    },
+    {
+      "category": "Hardware",
+      "description": "Garbage Pullout Mechanism",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "Garbage Pullout Mechanism"
+      ]
+    },
+    {
+      "category": "Cabinetry",
+      "description": "Frameless FH 2 Door Door Sink Base Finished",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "Frameless FH 2 Door Door Sink Base Finished"
+      ]
+    },
+    {
+      "category": "Cabinetry",
+      "description": "Dishwasher Panel Finished",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "Dishwasher Panel Finished"
+      ]
+    },
+    {
+      "category": "Cabinetry",
+      "description": "Back Panel Finished",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "Back Panel Finished"
+      ]
+    },
+    {
+      "category": "Hardware",
+      "description": "Pulls",
+      "quantity": 5.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "Pulls"
+      ]
+    },
+    {
+      "category": "Hardware",
+      "description": "Pulls",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "Pulls"
+      ]
+    },
+    {
+      "category": "Cabinetry",
+      "description": "Island Chase Wall",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "Island Chase Wall"
+      ]
+    },
+    {
+      "category": "Cabinetry",
+      "description": "Reveal @ countertop",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "Reveal @ countertop"
+      ]
+    }
+  ],
+  "specSheet": [
+    {
+      "key": "Finish Code",
+      "value": "HW-19",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "HW-19"
+      ]
+    },
+    {
+      "key": "Finish Code",
+      "value": "WD-01",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "WD-01"
+      ]
+    },
+    {
+      "key": "Finish Code",
+      "value": "HW-20",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "HW-20"
+      ]
+    },
+    {
+      "key": "Finish Code",
+      "value": "GL-02",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "GL-02"
+      ]
+    }
+  ],
+  "specifications": []
+}

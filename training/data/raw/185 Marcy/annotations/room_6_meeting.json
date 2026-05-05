@@ -1,0 +1,25 @@
+{
+  "trade": "millwork",
+  "room_number": "6",
+  "room_name": "MEETING",
+  "drawing_refs": [
+    "1/A-600"
+  ],
+  "scopeItems": [
+    {
+      "category": "Cabinetry",
+      "description": "TV WALL",
+      "quantity": 2.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "TV WALL"
+      ]
+    }
+  ],
+  "specSheet": [],
+  "specifications": []
+}

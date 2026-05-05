@@ -29,3 +29,9 @@ htmlcov/
 
 # Docker
 *.log
+
+# Training data (large files)
+training/data/raw/*/images/
+training/data/raw/*/*.pdf
+*.png
+*.pdf

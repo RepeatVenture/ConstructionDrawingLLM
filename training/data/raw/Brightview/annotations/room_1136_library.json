@@ -1,0 +1,37 @@
+{
+  "trade": "millwork",
+  "room_number": "1136",
+  "room_name": "LIBRARY",
+  "drawing_refs": [
+    "4/ID3.3"
+  ],
+  "scopeItems": [
+    {
+      "category": "Cabinetry",
+      "description": "CUSTOM STAINED BOOKCASES, CABINETRY, AND ART FRAME",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "CUSTOM STAINED BOOKCASES, CABINETRY, AND ART FRAME"
+      ]
+    }
+  ],
+  "specSheet": [
+    {
+      "key": "Finish Code",
+      "value": "M1/S1",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "M1/S1"
+      ]
+    }
+  ],
+  "specifications": []
+}

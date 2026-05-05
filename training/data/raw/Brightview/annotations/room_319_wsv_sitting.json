@@ -1,0 +1,50 @@
+{
+  "trade": "millwork",
+  "room_number": "319",
+  "room_name": "WSV SITTING",
+  "drawing_refs": [
+    "1-4/ID3.27"
+  ],
+  "scopeItems": [
+    {
+      "category": "Trim",
+      "description": "BOARD AND BATTEN",
+      "quantity": 300.0,
+      "unit": "lf",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "BOARD AND BATTEN"
+      ]
+    },
+    {
+      "category": "Trim",
+      "description": "TRIM/CROWN/CHAIR RAIL",
+      "quantity": 198.0,
+      "unit": "lf",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "TRIM/CROWN/CHAIR RAIL"
+      ]
+    }
+  ],
+  "specSheet": [
+    {
+      "key": "Finish Code",
+      "value": "PRIMED",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "PRIMED"
+      ]
+    }
+  ],
+  "specifications": []
+}

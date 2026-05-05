@@ -1,0 +1,185 @@
+{
+  "trade": "millwork",
+  "room_number": "0",
+  "room_name": "12TH FLOOR",
+  "drawing_refs": [],
+  "scopeItems": [
+    {
+      "category": "Cabinetry",
+      "description": "Frameless 3 Drawer Base Cabinet Finished",
+      "quantity": 2.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "Frameless 3 Drawer Base Cabinet Finished"
+      ]
+    },
+    {
+      "category": "Cabinetry",
+      "description": "Frameless 2 Drawer Stovetop Base Cabinet Finished",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "Frameless 2 Drawer Stovetop Base Cabinet Finished"
+      ]
+    },
+    {
+      "category": "Cabinetry",
+      "description": "Frameless FH Door Tray Base Finished",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "Frameless FH Door Tray Base Finished"
+      ]
+    },
+    {
+      "category": "Cabinetry",
+      "description": "Frameless 3/2 Door Upper Cabinet, Finished Interiors @ glass Doors, Top Swing up Cabinet Finished",
+      "quantity": 4.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "Frameless 3/2 Door Upper Cabinet, Finished Interio"
+      ]
+    },
+    {
+      "category": "Cabinetry",
+      "description": "Frameless Oven Cabinet with 1 Drawer Finished",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "Frameless Oven Cabinet with 1 Drawer Finished"
+      ]
+    },
+    {
+      "category": "Cabinetry",
+      "description": "Frameless Oversized Tall Regrigerator/Freezer Cabinet, Panels and  2 Swing up door Finished",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "Frameless Oversized Tall Regrigerator/Freezer Cabi"
+      ]
+    },
+    {
+      "category": "Glass",
+      "description": "Glass for 7 doors",
+      "quantity": 7.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "Glass for 7 doors"
+      ]
+    },
+    {
+      "category": "Hardware",
+      "description": "Pulls",
+      "quantity": 23.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "Pulls"
+      ]
+    },
+    {
+      "category": "Hardware",
+      "description": "Pulls",
+      "quantity": 2.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "Pulls"
+      ]
+    },
+    {
+      "category": "Hardware",
+      "description": "Spice Rack pullout",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "Spice Rack pullout"
+      ]
+    }
+  ],
+  "specSheet": [
+    {
+      "key": "Finish Code",
+      "value": "WD-01",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "WD-01"
+      ]
+    },
+    {
+      "key": "Finish Code",
+      "value": "HW-19",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "HW-19"
+      ]
+    },
+    {
+      "key": "Finish Code",
+      "value": "GL-02",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "GL-02"
+      ]
+    },
+    {
+      "key": "Finish Code",
+      "value": "HW-20",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "HW-20"
+      ]
+    }
+  ],
+  "specifications": []
+}

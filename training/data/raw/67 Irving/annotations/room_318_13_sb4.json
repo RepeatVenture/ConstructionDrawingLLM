@@ -1,0 +1,74 @@
+{
+  "trade": "millwork",
+  "room_number": "318",
+  "room_name": "13 SB4",
+  "drawing_refs": [],
+  "scopeItems": [
+    {
+      "category": "Trim",
+      "description": "Oak hard wood revel between panels",
+      "quantity": 135.0,
+      "unit": "lf",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "Oak hard wood revel between panels"
+      ]
+    },
+    {
+      "category": "Paneling",
+      "description": "Acoustic panels. Panels to be attached w/ z-clips Acosutic Panel",
+      "quantity": 352.0,
+      "unit": "sf",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "Acoustic panels. Panels to be attached w/ z-clips "
+      ]
+    },
+    {
+      "category": "Paneling",
+      "description": "Premium Fabric upcharge for paneling TX-03",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "Premium Fabric upcharge for paneling TX-03"
+      ]
+    },
+    {
+      "category": "Counters",
+      "description": "Wood veneer counter top with solid woFumed Rift Oak",
+      "quantity": 10.0,
+      "unit": "lf",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "Wood veneer counter top with solid woFumed Rift Oa"
+      ]
+    }
+  ],
+  "specSheet": [
+    {
+      "key": "Finish Code",
+      "value": "WD-07",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "WD-07"
+      ]
+    }
+  ],
+  "specifications": []
+}

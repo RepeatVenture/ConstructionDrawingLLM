@@ -1,0 +1,25 @@
+{
+  "trade": "millwork",
+  "room_number": "300",
+  "room_name": "WELLSPRING",
+  "drawing_refs": [
+    "8-11/ID3.20"
+  ],
+  "scopeItems": [
+    {
+      "category": "Cabinetry",
+      "description": "ALLOWANCE FOR MARINE GRADE WOOD FEATURE WALL $2000",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "ALLOWANCE FOR MARINE GRADE WOOD FEATURE WALL $2000"
+      ]
+    }
+  ],
+  "specSheet": [],
+  "specifications": []
+}

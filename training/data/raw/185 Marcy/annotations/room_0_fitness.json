@@ -1,0 +1,37 @@
+{
+  "trade": "millwork",
+  "room_number": "0",
+  "room_name": "FITNESS",
+  "drawing_refs": [
+    "1/A-600"
+  ],
+  "scopeItems": [
+    {
+      "category": "Cabinetry",
+      "description": "UNDER STAIR BUILT IN",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "UNDER STAIR BUILT IN"
+      ]
+    }
+  ],
+  "specSheet": [
+    {
+      "key": "Finish Code",
+      "value": "WD09",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "WD09"
+      ]
+    }
+  ],
+  "specifications": []
+}

@@ -1,0 +1,269 @@
+{
+  "trade": "millwork",
+  "room_number": "0",
+  "room_name": "KITCHEN E",
+  "drawing_refs": [
+    "1/A-600"
+  ],
+  "scopeItems": [
+    {
+      "category": "Cabinetry",
+      "description": "18\" 1 DOOR BASE",
+      "quantity": 1.5,
+      "unit": "lf",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "18\" 1 DOOR BASE"
+      ]
+    },
+    {
+      "category": "Cabinetry",
+      "description": "30\" OVEN CABINET",
+      "quantity": 2.5,
+      "unit": "lf",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "30\" OVEN CABINET"
+      ]
+    },
+    {
+      "category": "Cabinetry",
+      "description": "18\" SINGLE DOOR UPPER",
+      "quantity": 1.5,
+      "unit": "lf",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "18\" SINGLE DOOR UPPER"
+      ]
+    },
+    {
+      "category": "Cabinetry",
+      "description": "30\" 2 DOOR ABOVE MICROWAVE CABINET",
+      "quantity": 2.5,
+      "unit": "lf",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "30\" 2 DOOR ABOVE MICROWAVE CABINET"
+      ]
+    },
+    {
+      "category": "Cabinetry",
+      "description": "30\" 2 DOOR UPPER",
+      "quantity": 2.5,
+      "unit": "lf",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "30\" 2 DOOR UPPER"
+      ]
+    },
+    {
+      "category": "Cabinetry",
+      "description": "24\" 1 DOOR UPPER",
+      "quantity": 2.0,
+      "unit": "lf",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "24\" 1 DOOR UPPER"
+      ]
+    },
+    {
+      "category": "Cabinetry",
+      "description": "2 TALL PANELS AND TOP (FRIDGE SURROUND)",
+      "quantity": 2.5,
+      "unit": "lf",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "2 TALL PANELS AND TOP (FRIDGE SURROUND)"
+      ]
+    },
+    {
+      "category": "Cabinetry",
+      "description": "FILLERS",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "FILLERS"
+      ]
+    },
+    {
+      "category": "Cabinetry",
+      "description": "FILLERS",
+      "quantity": 2.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "FILLERS"
+      ]
+    },
+    {
+      "category": "Cabinetry",
+      "description": "CORNER FILLER",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "CORNER FILLER"
+      ]
+    },
+    {
+      "category": "Cabinetry",
+      "description": "30\" 2 DOOR SINK BASE",
+      "quantity": 2.5,
+      "unit": "lf",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "30\" 2 DOOR SINK BASE"
+      ]
+    },
+    {
+      "category": "Cabinetry",
+      "description": "DISHWASHER PANEL",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "DISHWASHER PANEL"
+      ]
+    },
+    {
+      "category": "Cabinetry",
+      "description": "27\" 3 DRAWER BASE",
+      "quantity": 2.5,
+      "unit": "lf",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "27\" 3 DRAWER BASE"
+      ]
+    },
+    {
+      "category": "Cabinetry",
+      "description": "BASE END PANEL",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "BASE END PANEL"
+      ]
+    },
+    {
+      "category": "Cabinetry",
+      "description": "30\" 2 DOOR BASE",
+      "quantity": 2.5,
+      "unit": "lf",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "30\" 2 DOOR BASE"
+      ]
+    },
+    {
+      "category": "Cabinetry",
+      "description": "20\" 3 DRAWER BASE",
+      "quantity": 2.0,
+      "unit": "lf",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "20\" 3 DRAWER BASE"
+      ]
+    },
+    {
+      "category": "Cabinetry",
+      "description": "END PANEL",
+      "quantity": 2.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "END PANEL"
+      ]
+    },
+    {
+      "category": "Cabinetry",
+      "description": "LARGE BACK PANEL",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "LARGE BACK PANEL"
+      ]
+    }
+  ],
+  "specSheet": [
+    {
+      "key": "Finish Code",
+      "value": "WD01B",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "WD01B"
+      ]
+    },
+    {
+      "key": "Finish Code",
+      "value": "WD01A",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "WD01A"
+      ]
+    }
+  ],
+  "specifications": []
+}

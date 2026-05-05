@@ -162,7 +162,7 @@ def extract_training_pages(pdf_path: str, annotations_dir: Path, images_dir: Pat
 
 
 def main():
-    pdf_path = "DCI Mt Kisco_100 CDs_R1 and R2_Stamped_04.30.25.pdf"
+    pdf_path = "DCI/DCI Mt Kisco_100 CDs_R1 and R2_Stamped_04.30.25.pdf"
     annotations_dir = Path("data/raw/custom/annotations")
     images_dir = Path("data/raw/custom/images")
     

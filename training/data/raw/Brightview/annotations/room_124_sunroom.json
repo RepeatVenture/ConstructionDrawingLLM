@@ -1,0 +1,50 @@
+{
+  "trade": "millwork",
+  "room_number": "124",
+  "room_name": "SUNROOM",
+  "drawing_refs": [
+    "1-4/ID3.19"
+  ],
+  "scopeItems": [
+    {
+      "category": "Paneling",
+      "description": "PRIMED SHIP LAP, WALLS AND CEILING C8/P1 1200 SQFt",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "PRIMED SHIP LAP, WALLS AND CEILING C8/P1 1200 SQFt"
+      ]
+    },
+    {
+      "category": "Trim",
+      "description": "TRIM/CROWN/CHAIR RAIL",
+      "quantity": 229.0,
+      "unit": "lf",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "TRIM/CROWN/CHAIR RAIL"
+      ]
+    }
+  ],
+  "specSheet": [
+    {
+      "key": "Finish Code",
+      "value": "PRIMED",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "PRIMED"
+      ]
+    }
+  ],
+  "specifications": []
+}

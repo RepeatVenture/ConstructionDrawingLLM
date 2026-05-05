@@ -1,0 +1,37 @@
+{
+  "trade": "millwork",
+  "room_number": "1122",
+  "room_name": "POOL",
+  "drawing_refs": [
+    "1/ID3.12"
+  ],
+  "scopeItems": [
+    {
+      "category": "Beams",
+      "description": "ALLOWANCE FOR WOOD BEAMS $2267/EACH",
+      "quantity": 132.0,
+      "unit": "lf",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "ALLOWANCE FOR WOOD BEAMS $2267/EACH"
+      ]
+    }
+  ],
+  "specSheet": [
+    {
+      "key": "Finish Code",
+      "value": "C11",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "C11"
+      ]
+    }
+  ],
+  "specifications": []
+}

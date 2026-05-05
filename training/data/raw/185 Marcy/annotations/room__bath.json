@@ -1,0 +1,25 @@
+{
+  "trade": "millwork",
+  "room_number": "",
+  "room_name": "BATH",
+  "drawing_refs": [
+    "1/A-600"
+  ],
+  "scopeItems": [
+    {
+      "category": "Cabinetry",
+      "description": "2 DOOR VANITY SINK BASE",
+      "quantity": 2.5,
+      "unit": "lf",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "2 DOOR VANITY SINK BASE"
+      ]
+    }
+  ],
+  "specSheet": [],
+  "specifications": []
+}

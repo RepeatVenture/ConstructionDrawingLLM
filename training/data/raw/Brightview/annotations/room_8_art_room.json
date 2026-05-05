@@ -1,0 +1,37 @@
+{
+  "trade": "millwork",
+  "room_number": "8",
+  "room_name": "ART ROOM",
+  "drawing_refs": [
+    "8/ID3.19"
+  ],
+  "scopeItems": [
+    {
+      "category": "Hardware",
+      "description": "SURFACE MOUNT BRACKETS",
+      "quantity": 4.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "SURFACE MOUNT BRACKETS"
+      ]
+    }
+  ],
+  "specSheet": [
+    {
+      "key": "Finish Code",
+      "value": "WHTE",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "WHTE"
+      ]
+    }
+  ],
+  "specifications": []
+}

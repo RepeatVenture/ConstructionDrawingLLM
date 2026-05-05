@@ -1,0 +1,124 @@
+{
+  "trade": "millwork",
+  "room_number": "1141",
+  "room_name": "PRIVATE",
+  "drawing_refs": [
+    "2/ID3.7"
+  ],
+  "scopeItems": [
+    {
+      "category": "Trim",
+      "description": "STAINED CROWN MOULDING",
+      "quantity": 20.0,
+      "unit": "lf",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "STAINED CROWN MOULDING"
+      ]
+    },
+    {
+      "category": "Cabinetry",
+      "description": "2 CUSTOM STAINED CABINETS WITH GLASS SHELVES AND FRONT",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "2 CUSTOM STAINED CABINETS WITH GLASS SHELVES AND F"
+      ]
+    },
+    {
+      "category": "Trim",
+      "description": "CUSTOM STAINED BASE MOULDING",
+      "quantity": 20.0,
+      "unit": "lf",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "CUSTOM STAINED BASE MOULDING"
+      ]
+    },
+    {
+      "category": "Paneling",
+      "description": "CUSTOM STAINED PLANK PANEL WALL",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "CUSTOM STAINED PLANK PANEL WALL"
+      ]
+    },
+    {
+      "category": "Trim",
+      "description": "FEATURE WALL PRIMED FLAT STOCK",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "FEATURE WALL PRIMED FLAT STOCK"
+      ]
+    },
+    {
+      "category": "Trim",
+      "description": "TRIM/CROWN/CHAIR RAIL",
+      "quantity": 266.0,
+      "unit": "lf",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "TRIM/CROWN/CHAIR RAIL"
+      ]
+    }
+  ],
+  "specSheet": [
+    {
+      "key": "Finish Code",
+      "value": "S1",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "S1"
+      ]
+    },
+    {
+      "key": "Finish Code",
+      "value": "PRIMED",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "PRIMED"
+      ]
+    },
+    {
+      "key": "Finish Code",
+      "value": "M1/S1",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "M1/S1"
+      ]
+    }
+  ],
+  "specifications": []
+}

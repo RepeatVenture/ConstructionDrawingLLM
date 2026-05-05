@@ -1,0 +1,50 @@
+{
+  "trade": "millwork",
+  "room_number": "1218",
+  "room_name": "CARDS",
+  "drawing_refs": [
+    "8-11/ID3.20"
+  ],
+  "scopeItems": [
+    {
+      "category": "Trim",
+      "description": "BOARD AND BATTEN",
+      "quantity": 200.0,
+      "unit": "lf",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "BOARD AND BATTEN"
+      ]
+    },
+    {
+      "category": "Trim",
+      "description": "TRIM/CROWN/CHAIR RAIL",
+      "quantity": 78.0,
+      "unit": "lf",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "TRIM/CROWN/CHAIR RAIL"
+      ]
+    }
+  ],
+  "specSheet": [
+    {
+      "key": "Finish Code",
+      "value": "PRIMED",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "PRIMED"
+      ]
+    }
+  ],
+  "specifications": []
+}

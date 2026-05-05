@@ -1,0 +1,74 @@
+{
+  "trade": "millwork",
+  "room_number": "79",
+  "room_name": "ADD ALTERNATES",
+  "drawing_refs": [],
+  "scopeItems": [
+    {
+      "category": "Trim",
+      "description": "1/2\" x 4\" solid poplar base",
+      "quantity": 180.0,
+      "unit": "lf",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "1/2\" x 4\" solid poplar base"
+      ]
+    },
+    {
+      "category": "Trim",
+      "description": "1/2\" x 8 1/2\" solid poplar base",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "1/2\" x 8 1/2\" solid poplar base"
+      ]
+    },
+    {
+      "category": "Trim",
+      "description": "3/4\" x 8\" solid poplar base",
+      "quantity": 240.0,
+      "unit": "lf",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "3/4\" x 8\" solid poplar base"
+      ]
+    },
+    {
+      "category": "Trim",
+      "description": "1\" x 2\" solid poplar door and window casing",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "1\" x 2\" solid poplar door and window casing"
+      ]
+    }
+  ],
+  "specSheet": [
+    {
+      "key": "Finish Code",
+      "value": "Primed",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "Primed"
+      ]
+    }
+  ],
+  "specifications": []
+}

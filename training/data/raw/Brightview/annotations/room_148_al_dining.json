@@ -1,0 +1,111 @@
+{
+  "trade": "millwork",
+  "room_number": "148",
+  "room_name": "AL DINING",
+  "drawing_refs": [
+    "1/ID3.17"
+  ],
+  "scopeItems": [
+    {
+      "category": "Column",
+      "description": "4 STAINED COLUMNS",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "4 STAINED COLUMNS"
+      ]
+    },
+    {
+      "category": "Cabinetry",
+      "description": "ALLOWANCE FOR STAINED SCREEN $10000",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "ALLOWANCE FOR STAINED SCREEN $10000"
+      ]
+    },
+    {
+      "category": "Trim",
+      "description": "FEATURE WALL WITH PRIMED FLAT STOCK AND MOULDING",
+      "quantity": 200.0,
+      "unit": "lf",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "FEATURE WALL WITH PRIMED FLAT STOCK AND MOULDING"
+      ]
+    },
+    {
+      "category": "Beams",
+      "description": "ALLOWANCE FOR BOX BEAMS $1000/EACH",
+      "quantity": 60.0,
+      "unit": "lf",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "ALLOWANCE FOR BOX BEAMS $1000/EACH"
+      ]
+    },
+    {
+      "category": "Trim",
+      "description": "TRIM/CROWN/CHAIR RAIL",
+      "quantity": 300.0,
+      "unit": "lf",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "TRIM/CROWN/CHAIR RAIL"
+      ]
+    }
+  ],
+  "specSheet": [
+    {
+      "key": "Finish Code",
+      "value": "S1",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "S1"
+      ]
+    },
+    {
+      "key": "Finish Code",
+      "value": "C9",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "C9"
+      ]
+    },
+    {
+      "key": "Finish Code",
+      "value": "PRIMED",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "PRIMED"
+      ]
+    }
+  ],
+  "specifications": []
+}

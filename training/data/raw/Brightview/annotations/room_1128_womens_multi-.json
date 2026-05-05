@@ -1,0 +1,37 @@
+{
+  "trade": "millwork",
+  "room_number": "1128",
+  "room_name": "WOMENS MULTI-",
+  "drawing_refs": [
+    "6/ID3.10"
+  ],
+  "scopeItems": [
+    {
+      "category": "Cabinetry",
+      "description": "LAMINATE ADA CABINETS",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "LAMINATE ADA CABINETS"
+      ]
+    }
+  ],
+  "specSheet": [
+    {
+      "key": "Finish Code",
+      "value": "L1",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "L1"
+      ]
+    }
+  ],
+  "specifications": []
+}

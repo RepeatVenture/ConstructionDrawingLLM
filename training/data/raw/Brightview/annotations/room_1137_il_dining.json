@@ -1,0 +1,50 @@
+{
+  "trade": "millwork",
+  "room_number": "1137",
+  "room_name": "IL DINING",
+  "drawing_refs": [
+    "2/ID3.7"
+  ],
+  "scopeItems": [
+    {
+      "category": "Hardware",
+      "description": "ALLOWANCE FOR 2 BARN DOORS GUIDE RAIL $2500",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "ALLOWANCE FOR 2 BARN DOORS GUIDE RAIL $2500"
+      ]
+    },
+    {
+      "category": "Trim",
+      "description": "TRIM/CROWN/CHAIR RAIL",
+      "quantity": 500.0,
+      "unit": "lf",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "TRIM/CROWN/CHAIR RAIL"
+      ]
+    }
+  ],
+  "specSheet": [
+    {
+      "key": "Finish Code",
+      "value": "PRIMED",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "PRIMED"
+      ]
+    }
+  ],
+  "specifications": []
+}

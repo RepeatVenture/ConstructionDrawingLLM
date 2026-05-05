@@ -1,0 +1,172 @@
+{
+  "trade": "millwork",
+  "room_number": "311",
+  "room_name": "WSV DINING",
+  "drawing_refs": [
+    "5/ID3.24"
+  ],
+  "scopeItems": [
+    {
+      "category": "Trim",
+      "description": "PRIMED FLAT STOCK COLUMNS",
+      "quantity": 1.0,
+      "unit": "lf",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "PRIMED FLAT STOCK COLUMNS"
+      ]
+    },
+    {
+      "category": "Paneling",
+      "description": "PRIMED SHIP LAP",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "PRIMED SHIP LAP"
+      ]
+    },
+    {
+      "category": "Cabinetry",
+      "description": "STAINED WOOD WALL CAPS",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "STAINED WOOD WALL CAPS"
+      ]
+    },
+    {
+      "category": "Cabinetry",
+      "description": "PAINTED CUSTOM KITCHEN WITH ISLAND",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "PAINTED CUSTOM KITCHEN WITH ISLAND"
+      ]
+    },
+    {
+      "category": "Shelving",
+      "description": "FLOATING SHELF",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "FLOATING SHELF"
+      ]
+    },
+    {
+      "category": "Paneling",
+      "description": "STAINED SHIPLAP CEILING",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "STAINED SHIPLAP CEILING"
+      ]
+    },
+    {
+      "category": "Hardware",
+      "description": "ISLAND BRACKET",
+      "quantity": 3.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "ISLAND BRACKET"
+      ]
+    },
+    {
+      "category": "Hardware",
+      "description": "ALLOWANCE FOR OIL RUBBED STANDARD HANDLES $35/EACH",
+      "quantity": 20.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "ALLOWANCE FOR OIL RUBBED STANDARD HANDLES $35/EACH"
+      ]
+    }
+  ],
+  "specSheet": [
+    {
+      "key": "Finish Code",
+      "value": "PRIMED",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "PRIMED"
+      ]
+    },
+    {
+      "key": "Finish Code",
+      "value": "HW1",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "HW1"
+      ]
+    },
+    {
+      "key": "Finish Code",
+      "value": "S1",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "S1"
+      ]
+    },
+    {
+      "key": "Finish Code",
+      "value": "M2",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "M2"
+      ]
+    },
+    {
+      "key": "Finish Code",
+      "value": "BLACK",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "BLACK"
+      ]
+    }
+  ],
+  "specifications": []
+}

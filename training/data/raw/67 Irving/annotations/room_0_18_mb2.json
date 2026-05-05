@@ -1,0 +1,87 @@
+{
+  "trade": "millwork",
+  "room_number": "0",
+  "room_name": "18 MB2",
+  "drawing_refs": [],
+  "scopeItems": [
+    {
+      "category": "Cabinetry",
+      "description": "2 FH Door Sink Base (High-End WV-01.1",
+      "quantity": 2.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "2 FH Door Sink Base (High-End WV-01.1"
+      ]
+    },
+    {
+      "category": "Cabinetry",
+      "description": "3 Drawer Base (High-end Material) WV-01.1",
+      "quantity": 2.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "3 Drawer Base (High-end Material) WV-01.1"
+      ]
+    },
+    {
+      "category": "Cabinetry",
+      "description": "Add on door upcharge WV-01.1",
+      "quantity": 5.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "Add on door upcharge WV-01.1"
+      ]
+    },
+    {
+      "category": "Hardware",
+      "description": "Pulls",
+      "quantity": 5.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "Pulls"
+      ]
+    },
+    {
+      "category": "Cabinetry",
+      "description": "Mirror medicine Cabinet Mirror",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "Mirror medicine Cabinet Mirror"
+      ]
+    }
+  ],
+  "specSheet": [
+    {
+      "key": "Finish Code",
+      "value": "HW-04",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "HW-04"
+      ]
+    }
+  ],
+  "specifications": []
+}

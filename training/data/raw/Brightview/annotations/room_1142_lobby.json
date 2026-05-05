@@ -1,0 +1,224 @@
+{
+  "trade": "millwork",
+  "room_number": "1142",
+  "room_name": "LOBBY",
+  "drawing_refs": [
+    "1/ID3.1"
+  ],
+  "scopeItems": [
+    {
+      "category": "Cabinetry",
+      "description": "RECEPTION DESK",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "RECEPTION DESK"
+      ]
+    },
+    {
+      "category": "Paneling",
+      "description": "PRIMED SHIP LAP PANELING TYPE E C8/PAINTED 150 SQFt 1.2 1142 LOBBY 2,3/ID3.1",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "PRIMED SHIP LAP PANELING TYPE E C8/PAINTED 150 SQF"
+      ]
+    },
+    {
+      "category": "Portal",
+      "description": "STAINED WOOD PILASTER CUFF WITH HEADER M1/S1 48 SQFt 1.3 1142 LOBBY 2/ID3.1",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "STAINED WOOD PILASTER CUFF WITH HEADER M1/S1 48 SQ"
+      ]
+    },
+    {
+      "category": "Cabinetry",
+      "description": "CUSTOM STAINED CABINETRY WITH TRASH",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "CUSTOM STAINED CABINETRY WITH TRASH"
+      ]
+    },
+    {
+      "category": "Column",
+      "description": "2 STAINED COLUMNS WITH HEADER",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "2 STAINED COLUMNS WITH HEADER"
+      ]
+    },
+    {
+      "category": "Column",
+      "description": "STAINED WOOD COLUMN",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "STAINED WOOD COLUMN"
+      ]
+    },
+    {
+      "category": "Beams",
+      "description": "ALLOWANCE FOR 16' STAINED WOOD BEAMS $1250/beam",
+      "quantity": 200.0,
+      "unit": "sf",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "ALLOWANCE FOR 16' STAINED WOOD BEAMS $1250/beam"
+      ]
+    },
+    {
+      "category": "Hardware",
+      "description": "SURFACE MOUNT BRACKETS",
+      "quantity": 4.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "SURFACE MOUNT BRACKETS"
+      ]
+    },
+    {
+      "category": "Stairs",
+      "description": "STILLWELL STAIRS ALLOWANCE FOR TREADS, RISERS, BALUSTERS AND HANDRAIL $27157",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "STILLWELL STAIRS ALLOWANCE FOR TREADS, RISERS, BAL"
+      ]
+    },
+    {
+      "category": "Hardware",
+      "description": "ALLOWANCE FOR OIL RUBBED FINGER PULLS $25/EACH",
+      "quantity": 3.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "ALLOWANCE FOR OIL RUBBED FINGER PULLS $25/EACH"
+      ]
+    },
+    {
+      "category": "Trim",
+      "description": "TRIM/CROWN/CHAIR RAIL",
+      "quantity": 510.0,
+      "unit": "lf",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "TRIM/CROWN/CHAIR RAIL"
+      ]
+    },
+    {
+      "category": "Trim",
+      "description": "STAINED TRIM/CROWN/CHAIR RAIL",
+      "quantity": 30.0,
+      "unit": "lf",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "STAINED TRIM/CROWN/CHAIR RAIL"
+      ]
+    }
+  ],
+  "specSheet": [
+    {
+      "key": "Finish Code",
+      "value": "WHTE",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "WHTE"
+      ]
+    },
+    {
+      "key": "Finish Code",
+      "value": "S1",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "S1"
+      ]
+    },
+    {
+      "key": "Finish Code",
+      "value": "PRIMED",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "PRIMED"
+      ]
+    },
+    {
+      "key": "Finish Code",
+      "value": "M1/S1",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "M1/S1"
+      ]
+    },
+    {
+      "key": "Finish Code",
+      "value": "HW2",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "HW2"
+      ]
+    }
+  ],
+  "specifications": []
+}

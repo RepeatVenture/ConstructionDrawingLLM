@@ -1,0 +1,85 @@
+{
+  "trade": "millwork",
+  "room_number": "0",
+  "room_name": "5 PDR1",
+  "drawing_refs": [],
+  "scopeItems": [
+    {
+      "category": "Cabinetry",
+      "description": "Floating Vanity with 2 Drawers (High- End Material) WV-01.1",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "Floating Vanity with 2 Drawers (High- End Material"
+      ]
+    },
+    {
+      "category": "Cabinetry",
+      "description": "Flex Paneled Doors",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "Flex Paneled Doors"
+      ]
+    },
+    {
+      "category": "Hardware",
+      "description": "Pulls",
+      "quantity": 2.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "Pulls"
+      ]
+    },
+    {
+      "category": "Cabinetry",
+      "description": "Mirror",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "Mirror"
+      ]
+    }
+  ],
+  "specSheet": [
+    {
+      "key": "Finish Code",
+      "value": "HW-06",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "HW-06"
+      ]
+    },
+    {
+      "key": "Finish Code",
+      "value": "WD-06",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "WD-06"
+      ]
+    }
+  ],
+  "specifications": []
+}

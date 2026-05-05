@@ -1,0 +1,137 @@
+{
+  "trade": "millwork",
+  "room_number": "1116",
+  "room_name": "THEATRE",
+  "drawing_refs": [
+    "5/ID3.8"
+  ],
+  "scopeItems": [
+    {
+      "category": "Cabinetry",
+      "description": "STAINED BASE CABINETS",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "STAINED BASE CABINETS"
+      ]
+    },
+    {
+      "category": "Column",
+      "description": "2 STAINED MILLWORK TOWERS WITH TAMBOUR SLATS",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "2 STAINED MILLWORK TOWERS WITH TAMBOUR SLATS"
+      ]
+    },
+    {
+      "category": "Column",
+      "description": "4 STAINED MILLWORK TOWERS WITH TAMBOUR SLATS",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "4 STAINED MILLWORK TOWERS WITH TAMBOUR SLATS"
+      ]
+    },
+    {
+      "category": "Cabinetry",
+      "description": "STAINED BASE CABINETS",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "STAINED BASE CABINETS"
+      ]
+    },
+    {
+      "category": "Shelving",
+      "description": "STAINED FLOATING SHELF WITH CONCEALED LIGHT",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "STAINED FLOATING SHELF WITH CONCEALED LIGHT"
+      ]
+    },
+    {
+      "category": "Hardware",
+      "description": "ALLOWANCE FOR OIL RUBBED STANDARD HANDLES $35/EACH",
+      "quantity": 4.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "ALLOWANCE FOR OIL RUBBED STANDARD HANDLES $35/EACH"
+      ]
+    },
+    {
+      "category": "Trim",
+      "description": "TRIM/CROWN/CHAIR RAIL",
+      "quantity": 200.0,
+      "unit": "lf",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "TRIM/CROWN/CHAIR RAIL"
+      ]
+    }
+  ],
+  "specSheet": [
+    {
+      "key": "Finish Code",
+      "value": "M1/S1",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "M1/S1"
+      ]
+    },
+    {
+      "key": "Finish Code",
+      "value": "HW1",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "HW1"
+      ]
+    },
+    {
+      "key": "Finish Code",
+      "value": "PRIMED",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "PRIMED"
+      ]
+    }
+  ],
+  "specifications": []
+}

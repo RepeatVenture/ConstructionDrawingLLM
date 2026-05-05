@@ -1,0 +1,174 @@
+{
+  "trade": "millwork",
+  "room_number": "1137",
+  "room_name": "IL LIVING",
+  "drawing_refs": [
+    "1/ID3.2"
+  ],
+  "scopeItems": [
+    {
+      "category": "Cabinetry",
+      "description": "CUSTOM STAINED CABINETRY AND ADA SINK BASE",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "CUSTOM STAINED CABINETRY AND ADA SINK BASE"
+      ]
+    },
+    {
+      "category": "Cabinetry",
+      "description": "CUSTOM PRIMED FIREPLACE SURROUND",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "CUSTOM PRIMED FIREPLACE SURROUND"
+      ]
+    },
+    {
+      "category": "Paneling",
+      "description": "PRIMED SLAT WALL",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "PRIMED SLAT WALL"
+      ]
+    },
+    {
+      "category": "Trim",
+      "description": "PRIMED FLAT STOCK FOR BASE AND CROWN OF SLAT WALL",
+      "quantity": 20.0,
+      "unit": "lf",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "PRIMED FLAT STOCK FOR BASE AND CROWN OF SLAT WALL"
+      ]
+    },
+    {
+      "category": "Column",
+      "description": "2 STAINED COLUMNS WITH HEADER",
+      "quantity": 180.0,
+      "unit": "sf",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "2 STAINED COLUMNS WITH HEADER"
+      ]
+    },
+    {
+      "category": "Hardware",
+      "description": "ALLOWANCE FOR 2 BARN DOORS GUIDE RAIL $2500",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "ALLOWANCE FOR 2 BARN DOORS GUIDE RAIL $2500"
+      ]
+    },
+    {
+      "category": "Hardware",
+      "description": "ALLOWANCE FOR OIL RUBBED STANDARD HANDLES $35/EACH",
+      "quantity": 3.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "ALLOWANCE FOR OIL RUBBED STANDARD HANDLES $35/EACH"
+      ]
+    },
+    {
+      "category": "Hardware",
+      "description": "ALLOWANCE FOR OIL RUBBED LONG HANDLES $75/EACH",
+      "quantity": 3.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "ALLOWANCE FOR OIL RUBBED LONG HANDLES $75/EACH"
+      ]
+    },
+    {
+      "category": "Trim",
+      "description": "TRIM/CROWN/CHAIR RAIL",
+      "quantity": 298.0,
+      "unit": "lf",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "TRIM/CROWN/CHAIR RAIL"
+      ]
+    }
+  ],
+  "specSheet": [
+    {
+      "key": "Finish Code",
+      "value": "M1/S1",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "M1/S1"
+      ]
+    },
+    {
+      "key": "Finish Code",
+      "value": "HW1",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "HW1"
+      ]
+    },
+    {
+      "key": "Finish Code",
+      "value": "PRIMED",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "PRIMED"
+      ]
+    },
+    {
+      "key": "Finish Code",
+      "value": "HW3",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "HW3"
+      ]
+    }
+  ],
+  "specifications": []
+}

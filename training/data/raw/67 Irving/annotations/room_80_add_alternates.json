@@ -1,0 +1,61 @@
+{
+  "trade": "millwork",
+  "room_number": "80",
+  "room_name": "ADD ALTERNATES",
+  "drawing_refs": [],
+  "scopeItems": [
+    {
+      "category": "Shelving",
+      "description": "3/4\" Coat shelves on wall cleats",
+      "quantity": 630.0,
+      "unit": "lf",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "3/4\" Coat shelves on wall cleats"
+      ]
+    },
+    {
+      "category": "Hardware",
+      "description": "1 5/16\" metal rod Chrome",
+      "quantity": 630.0,
+      "unit": "lf",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "1 5/16\" metal rod Chrome"
+      ]
+    },
+    {
+      "category": "Hardware",
+      "description": "Closet rod bracket Chrome 180 ea",
+      "quantity": 1.0,
+      "unit": "ea",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "Closet rod bracket Chrome 180 ea"
+      ]
+    }
+  ],
+  "specSheet": [
+    {
+      "key": "Finish Code",
+      "value": "Primed",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "Primed"
+      ]
+    }
+  ],
+  "specifications": []
+}

@@ -1,0 +1,36 @@
+{
+  "trade": "millwork",
+  "room_number": "1204",
+  "room_name": "76 PDR1",
+  "drawing_refs": [],
+  "scopeItems": [
+    {
+      "category": "Trim",
+      "description": "Portal- 7\"x2\" Jamb/Head w/ metal u- channel WV-01.1",
+      "quantity": 25.0,
+      "unit": "lf",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "Portal- 7\"x2\" Jamb/Head w/ metal u- channel WV-01."
+      ]
+    },
+    {
+      "category": "Paneling",
+      "description": "Wood veneer on MDF w/ 1\"x1\" perimeter trim. Panels to be attached w/ z-clips. Walls and ceiling WV-01.1",
+      "quantity": 310.0,
+      "unit": "sf",
+      "confidence": 0.95,
+      "pageRefs": [
+        1
+      ],
+      "textSnippets": [
+        "Wood veneer on MDF w/ 1\"x1\" perimeter trim. Panels"
+      ]
+    }
+  ],
+  "specSheet": [],
+  "specifications": []
+}
