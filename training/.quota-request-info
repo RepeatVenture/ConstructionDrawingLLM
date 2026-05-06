@@ -1,0 +1,12 @@
+Request ID: 0db2745e4d8e48bfb1bce59156c39e496xPoMG7O
+Status: PENDING
+Requested: 2026-05-05 15:54:21
+Region: us-east-1
+Quota: Running On-Demand G and VT instances (32 vCPUs)
+
+Check status:
+aws service-quotas get-requested-service-quota-change --request-id 0db2745e4d8e48bfb1bce59156c39e496xPoMG7O --region us-east-1
+
+Once approved, run:
+cd /workspaces/ConstructionDrawingLLM/training
+./aws_train.sh --key construction-llm

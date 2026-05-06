@@ -1,0 +1,20 @@
+# FastAPI Server Requirements
+fastapi==0.115.0
+uvicorn[standard]==0.32.0
+pydantic==2.10.0
+python-multipart==0.0.17
+
+# Machine Learning
+torch==2.2.0
+torchvision==0.17.0
+transformers==4.46.0
+accelerate==0.28.0
+peft==0.13.0
+bitsandbytes==0.43.0
+
+# Image Processing
+Pillow==10.4.0
+
+# Utilities
+python-dotenv==1.0.1
+requests==2.32.3
