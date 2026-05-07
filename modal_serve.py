@@ -156,35 +156,42 @@ class LLaVAInference:
             image_bytes = base64.b64decode(image_b64)
             image = Image.open(io.BytesIO(image_bytes)).convert('RGB')
             
-            # Format prompt for LLaVA
+            # Format conversation - MUST match training format (3-turn chat)
+            # Training used: system → user → assistant
+            conversation = []
+            
             if system_prompt:
-                full_prompt = f"{system_prompt}\n\n{text}"
-            else:
-                full_prompt = text
+                conversation.append({
+                    "role": "system",
+                    "content": system_prompt
+                })
             
-            conversation = [
-                {
-                    "role": "user",
-                    "content": [
-                        {"type": "image"},
-                        {"type": "text", "text": full_prompt},
-                    ],
-                },
-            ]
+            # User message with image placeholder
+            conversation.append({
+                "role": "user",
+                "content": f"<image>\n{text}"
+            })
             
-            # Process inputs
-            prompt = self.processor.apply_chat_template(conversation, add_generation_prompt=True)
-            inputs = self.processor(images=image, text=prompt, return_tensors="pt")
+            # Process inputs (apply_chat_template adds the ASSISTANT: prompt)
+            prompt = self.processor.apply_chat_template(
+                conversation, 
+                tokenize=False,
+                add_generation_prompt=True
+            )
+            inputs = self.processor(text=prompt, images=image, return_tensors="pt", padding=True)
             inputs = {k: v.to(self.model.device) for k, v in inputs.items()}
             
-            # Generate
+            # Generate (parameters matching training setup)
             with torch.no_grad():
                 output_ids = self.model.generate(
                     **inputs,
                     max_new_tokens=max_tokens,
-                    do_sample=temperature > 0,
-                    temperature=temperature if temperature > 0 else None,
+                    temperature=temperature,
+                    do_sample=True,  # Always use sampling with temperature
+                    num_beams=1,
                     pad_token_id=self.processor.tokenizer.pad_token_id,
+                    eos_token_id=self.processor.tokenizer.eos_token_id,
+                    use_cache=True,
                 )
             
             # Decode output

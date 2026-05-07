@@ -1,0 +1,148 @@
+STOP - You're approaching this wrong!
+
+The custom LLaVA model is ALREADY DEPLOYED as a serverless API on Modal. Your BlueprintBid app only needs to make HTTP requests to it - no model downloads, no HuggingFace access, no local model files needed.
+
+This is an API integration, not a model loading integration.
+
+═══════════════════════════════════════════════════════════════════
+
+WHAT YOU'RE DOING WRONG:
+❌ Trying to download and load model files in Next.js
+❌ Looking for HuggingFace models
+❌ Attempting to load LoRA adapters locally
+
+WHAT YOU SHOULD BE DOING:
+✅ Making simple HTTP fetch requests to a deployed API
+✅ Treating it exactly like the OpenAI API (but different endpoint)
+
+═══════════════════════════════════════════════════════════════════
+
+THE MODEL IS ALREADY DEPLOYED HERE:
+https://repeatventure--llava-construction-api-fastapi-app.modal.run
+
+It runs on Modal's GPU servers, not in your Next.js app. Your app just sends images and receives JSON responses via HTTP.
+
+═══════════════════════════════════════════════════════════════════
+
+CORRECT INTEGRATION (3 SIMPLE STEPS):
+
+1. SET ENVIRONMENT VARIABLE IN VERCEL:
+   LLAVA_API_URL=https://repeatventure--llava-construction-api-fastapi-app.modal.run
+
+2. CREATE API CLIENT (lib/llava-api.ts):
+
+interface AnalyzeResponse {
+  content: string; // JSON string
+  model: string;
+  usage: {
+    prompt_tokens: number;
+    completion_tokens: number;
+    total_tokens: number;
+  };
+}
+
+export async function analyzeDrawing(
+  imageBase64: string,
+  prompt: string,
+  systemPrompt: string = "You are an expert at reading construction drawings."
+): Promise<any> {
+  const apiUrl = process.env.LLAVA_API_URL || process.env.NEXT_PUBLIC_LLAVA_API_URL;
+  
+  if (!apiUrl) {
+    throw new Error("LLAVA_API_URL environment variable is not set");
+  }
+
+  const imageDataUri = imageBase64.startsWith('data:') 
+    ? imageBase64 
+    : `data:image/png;base64,${imageBase64}`;
+
+  const response = await fetch(`${apiUrl}/analyze`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      image: imageDataUri,
+      text: prompt,
+      system_prompt: systemPrompt,
+      max_tokens: 4000,
+      temperature: 0.7
+    }),
+    signal: AbortSignal.timeout(120000) // 2 minute timeout
+  });
+
+  if (!response.ok) {
+    const errorText = await response.text();
+    throw new Error(`LLaVA API error: ${response.status} - ${errorText}`);
+  }
+
+  const result: AnalyzeResponse = await response.json();
+  
+  // Parse the JSON string content
+  return JSON.parse(result.content);
+}
+
+3. REPLACE OPENAI CALLS:
+
+BEFORE (OpenAI):
+import OpenAI from 'openai';
+const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
+const response = await openai.chat.completions.create({
+  model: "gpt-4-vision-preview",
+  messages: [...]
+});
+const data = JSON.parse(response.choices[0].message.content);
+
+AFTER (LLaVA):
+import { analyzeDrawing } from '@/lib/llava-api';
+const data = await analyzeDrawing(imageBase64, userPrompt, systemPrompt);
+
+═══════════════════════════════════════════════════════════════════
+
+THAT'S IT! NO MODEL FILES, NO HUGGINGFACE, NO DOWNLOADS!
+
+═══════════════════════════════════════════════════════════════════
+
+RESPONSE FORMAT:
+The API returns this structure:
+{
+  "content": "{\"included_items\": [...], \"specifications\": [...]}",
+  "model": "llava-construction-v1",
+  "usage": {"prompt_tokens": 1234, "completion_tokens": 567, "total_tokens": 1801}
+}
+
+The "content" field is a JSON string that you parse with JSON.parse(result.content) to get:
+{
+  "included_items": [
+    {
+      "room_number": "101",
+      "room_name": "Living Room",
+      "category": "cabinet",
+      "description": "Base cabinet",
+      "quantity": 4,
+      "unit": "LF",
+      "finish_code": "WO-1"
+    }
+  ],
+  "specifications": [...]
+}
+
+═══════════════════════════════════════════════════════════════════
+
+TESTING:
+Test the API is working:
+curl https://repeatventure--llava-construction-api-fastapi-app.modal.run/health
+
+Should return:
+{"status":"healthy","model":"llava-construction-v1","version":"1.0.0"}
+
+═══════════════════════════════════════════════════════════════════
+
+KEY DIFFERENCE FROM OPENAI:
+
+OpenAI: Your code sends request → OpenAI servers process → Return response
+LLaVA:  Your code sends request → My Modal servers process → Return response
+
+Same pattern, different URL. That's all!
+
+═══════════════════════════════════════════════════════════════════
+
+NOW IMPLEMENT THE INTEGRATION WITH SIMPLE HTTP REQUESTS!
