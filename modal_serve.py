@@ -259,10 +259,75 @@ class AnalyzeRequest(BaseModel):
     max_tokens: Optional[int] = 4000
     temperature: Optional[float] = 0.7
     response_format: Optional[str] = "json"
+    output_schema: Optional[str] = "training"  # "training" or "included_items"
 
 @web_app.get("/")
 def root():
     return {"message": "LLaVA Construction API", "version": "1.0.0"}
+
+
+def convert_training_to_included_items(training_output: dict) -> dict:
+    """
+    Convert training schema (scopeItems/specSheet) to included_items schema.
+    
+    Training schema:
+    {
+      "scopeItems": [{"category": "", "description": "", "quantity": 0, "unit": "", ...}],
+      "specSheet": [{"key": "Finish Code", "value": "...", ...}],
+      "specifications": []
+    }
+    
+    Included items schema:
+    {
+      "included_items": [
+        {
+          "room_number": "101",
+          "category": "Cabinetry",
+          "description": "...",
+          "quantity": 10,
+          "unit": "LF",
+          "finish_code": "WO-1"
+        }
+      ]
+    }
+    """
+    import re
+    
+    if not training_output or "scopeItems" not in training_output:
+        return {"included_items": []}
+    
+    # Extract finish codes from specSheet
+    finish_codes = {}
+    for spec in training_output.get("specSheet", []):
+        if spec.get("key") == "Finish Code":
+            finish_codes[spec.get("value")] = spec
+    
+    included_items = []
+    
+    for item in training_output.get("scopeItems", []):
+        # Try to extract room number from textSnippets
+        room_number = None
+        for snippet in item.get("textSnippets", []):
+            # Look for patterns like: "101", "A-101", "2-101", etc.
+            match = re.search(r'\b([A-Z]?-?\d{2,4})\b', snippet)
+            if match:
+                room_number = match.group(1)
+                break
+        
+        # Use first finish code (or could match by pageRef if needed)
+        finish_code = list(finish_codes.keys())[0] if finish_codes else None
+        
+        included_items.append({
+            "room_number": room_number,
+            "category": item.get("category"),
+            "description": item.get("description"),
+            "quantity": item.get("quantity"),
+            "unit": item.get("unit"),
+            "finish_code": finish_code,
+        })
+    
+    return {"included_items": included_items}
+
 
 @web_app.get("/health")
 def health():
@@ -301,7 +366,8 @@ async def analyze(request: AnalyzeRequest):
         "system_prompt": "You are an expert...",
         "max_tokens": 4000,
         "temperature": 0.7,
-        "response_format": "json"
+        "response_format": "json",
+        "output_schema": "training" | "included_items"
     }
     
     Response:
@@ -310,7 +376,19 @@ async def analyze(request: AnalyzeRequest):
         "model": "llava-construction-v1",
         "usage": {"prompt_tokens": int, "completion_tokens": int, "total_tokens": int}
     }
+    
+    output_schema options:
+    - "training" (default): Returns scopeItems/specSheet/specifications (as trained)
+    - "included_items": Converts to included_items array format
     """
+    # Use training system prompt if not provided
+    if not request.system_prompt:
+        request.system_prompt = (
+            "You are an expert construction estimator specializing in millwork and casework. "
+            "Analyze construction drawings to extract quantities for bidding. "
+            "Return ONLY valid JSON with scopeItems, specSheet, and specifications."
+        )
+    
     # Run inference using Modal class
     result = await LLaVAInference().generate.remote.aio(
         image_b64=request.image,
@@ -319,6 +397,23 @@ async def analyze(request: AnalyzeRequest):
         max_tokens=request.max_tokens,
         temperature=request.temperature,
     )
+    
+    # Convert schema if requested
+    if request.output_schema == "included_items":
+        try:
+            # Parse training format
+            training_json = json.loads(result["content"])
+            # Convert to included_items format
+            converted = convert_training_to_included_items(training_json)
+            # Update response
+            result["content"] = json.dumps(converted)
+            result["schema"] = "included_items"
+        except Exception as e:
+            # If conversion fails, add error but keep original
+            result["conversion_error"] = str(e)
+            result["schema"] = "training"
+    else:
+        result["schema"] = "training"
     
     return result
 
